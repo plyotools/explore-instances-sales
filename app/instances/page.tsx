@@ -478,7 +478,7 @@ export default function InstancesPage() {
   const [includedFeatures, setIncludedFeatures] = useState<string[]>([]);
   const [excludedFeatures, setExcludedFeatures] = useState<string[]>([]);
   const searchInputRef = useRef<HTMLInputElement>(null);
-  const basePath = process.env.NODE_ENV === 'production' ? '/explore' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '/explore-instances-sales' : '';
 
   useEffect(() => {
     if (typeof document !== 'undefined') {
@@ -487,7 +487,7 @@ export default function InstancesPage() {
     
     const loadInstances = async () => {
       try {
-        const response = await fetch('/metadata.json');
+        const response = await fetch(`${basePath}/metadata.json`);
         if (response.ok) {
           const data = await response.json();
           setInstances(data);
