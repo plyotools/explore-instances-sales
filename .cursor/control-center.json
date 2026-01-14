@@ -3,5 +3,8 @@
   "lastSync": null,
   "principlesVersion": null,
   "principlesLastSync": null,
-  "principlesAutoSyncEnabled": false
+  "principlesAutoSyncEnabled": false,
+  "repoUrl": "https://github.com/plyotools/explore-instances-sales.git",
+  "lastRelease": "2026-01-14T18:30:35.684Z",
+  "lastReleaseBranch": "main"
 }
