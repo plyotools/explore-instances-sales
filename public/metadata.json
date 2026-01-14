@@ -42,6 +42,18 @@
     "status": "Public"
   },
   {
+    "id": "56173785-0551-46d8-aab4-7ff0e895e3a2",
+    "uuid": "56173785-0551-46d8-aab4-7ff0e895e3a2",
+    "name": "Eikeparken Nord",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/eikeparken-nord",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
+  },
+  {
     "id": "38a89407-700c-4adf-a9d1-8391ccf2453d",
     "uuid": "38a89407-700c-4adf-a9d1-8391ccf2453d",
     "name": "Sentrumskvartalet-Trinn2",
@@ -52,6 +64,18 @@
       "Disclaimer"
     ],
     "image": "/previews/38a89407-700c-4adf-a9d1-8391ccf2453d.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "f5f28739-b0e3-4c79-a93c-a5421982d8d7",
+    "uuid": "f5f28739-b0e3-4c79-a93c-a5421982d8d7",
+    "name": "Torghagen-T1_L-10001",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/torghagen-t1_l-10001",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -190,6 +214,42 @@
     "status": "Public"
   },
   {
+    "id": "7ec22224-051b-42c1-bf9c-3515b770f9dd",
+    "uuid": "7ec22224-051b-42c1-bf9c-3515b770f9dd",
+    "name": "Herakles_2-room_Hus-A_P23",
+    "client": "Scandinavian Property Group AS",
+    "link": "https://scandinavianpropertygroup.com/se/vara-projekt/makaronifabriken/till-salu/showroom",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "7a48b7e1-f070-49c3-aa0c-6871abb01ab1",
+    "uuid": "7a48b7e1-f070-49c3-aa0c-6871abb01ab1",
+    "name": "Herakles_3-room_Hus-B_P16",
+    "client": "Scandinavian Property Group AS",
+    "link": "https://scandinavianpropertygroup.com/se/vara-projekt/makaronifabriken/till-salu/showroom",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "1ffd05cf-9344-4c7c-a8ac-a48f0c8b84ea",
+    "uuid": "1ffd05cf-9344-4c7c-a8ac-a48f0c8b84ea",
+    "name": "Elvebredden L4_5",
+    "client": "Barlindhaug Eiendom AS",
+    "link": "https://elvebreddenbolig.no/nybygg/templates/boenhet-i4_5-f787b626",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "02d1f37b-29d4-4e02-989b-1f8af1a444e4",
     "uuid": "02d1f37b-29d4-4e02-989b-1f8af1a444e4",
     "name": "Dyrhaugen DEV",
@@ -218,6 +278,18 @@
     "status": "Public"
   },
   {
+    "id": "7858387d-db2a-41bc-8ce5-bf971ee5596a",
+    "uuid": "7858387d-db2a-41bc-8ce5-bf971ee5596a",
+    "name": "Borgundfjorden H0310",
+    "client": "Peab",
+    "link": "https://borgundfjorden.no/no/til-salgs/visningsleiligheter",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "529203ff-dfb0-4e68-90e2-04aa47197348",
     "uuid": "529203ff-dfb0-4e68-90e2-04aa47197348",
     "name": "Michael Unity version test",
@@ -228,6 +300,18 @@
       "Disclaimer"
     ],
     "image": "/previews/529203ff-dfb0-4e68-90e2-04aa47197348.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "c17e9185-1a4e-4c61-9b22-c612be8c5550",
+    "uuid": "c17e9185-1a4e-4c61-9b22-c612be8c5550",
+    "name": "Borgundfjorden H0402",
+    "client": "Peab",
+    "link": "https://borgundfjorden.no/no/til-salgs/visningsleiligheter",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -314,6 +398,18 @@
     "status": "Public"
   },
   {
+    "id": "76c117cd-4b71-4720-b9af-fd3e41907647",
+    "uuid": "76c117cd-4b71-4720-b9af-fd3e41907647",
+    "name": "Saudi showroom",
+    "client": "Plyo AS",
+    "link": "https://mariakvartalet-demo.plyo.cloud/en/for-sale/templates/showroom-apartment-26d96534",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "a65cff65-e4a8-4f8a-8cda-11ac815cd909",
     "uuid": "a65cff65-e4a8-4f8a-8cda-11ac815cd909",
     "name": "Bromma",
@@ -360,6 +456,18 @@
       "Disclaimer"
     ],
     "image": "/previews/dc796a0b-700e-4381-9d09-4d5df5fde9f4.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "37a54de3-02f0-4d50-932e-1581341b117b",
+    "uuid": "37a54de3-02f0-4d50-932e-1581341b117b",
+    "name": "Geilohovda",
+    "client": "Nobello",
+    "link": "https://geilohovda-2.plyo.cloud/no/til-salgs/showroom",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -445,6 +553,18 @@
     "status": "Public"
   },
   {
+    "id": "828f15a4-cd65-4138-8953-56f7959eb719",
+    "uuid": "828f15a4-cd65-4138-8953-56f7959eb719",
+    "name": "Interior Setup Test",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/interior-setup-test",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "5b9b3543-862e-4de4-85c5-a172c4ba4e26",
     "uuid": "5b9b3543-862e-4de4-85c5-a172c4ba4e26",
     "name": "Dyrhaugen",
@@ -469,6 +589,30 @@
       "Disclaimer"
     ],
     "image": "/previews/da0f535f-fc28-483c-9163-b8ace391f7b9.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "31fc63a4-da0e-48c1-980c-72fd281b2274",
+    "uuid": "31fc63a4-da0e-48c1-980c-72fd281b2274",
+    "name": "Bryggegata-9_3rd-Floor",
+    "client": "Norwegian Property Group",
+    "link": "https://snekkerbygget.no/no/til-leie/digitale-visninger",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "ab331617-9d36-457e-849d-f59090fd80eb",
+    "uuid": "ab331617-9d36-457e-849d-f59090fd80eb",
+    "name": "Showcase 01",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/showcase-01",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -527,6 +671,18 @@
     "status": "Public"
   },
   {
+    "id": "b0e83a80-76d4-41b8-8432-e2fc96ee390c",
+    "uuid": "b0e83a80-76d4-41b8-8432-e2fc96ee390c",
+    "name": "Lachmannsvei C2",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/lachmannsvei-c2",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "2e0b11c5-af58-48ac-82f3-5de62168eb7f",
     "uuid": "2e0b11c5-af58-48ac-82f3-5de62168eb7f",
     "name": "Leangenbukta",
@@ -567,6 +723,18 @@
     "status": "Public"
   },
   {
+    "id": "d867c88d-c021-4a8e-9710-e030a358cdab",
+    "uuid": "d867c88d-c021-4a8e-9710-e030a358cdab",
+    "name": "Lachmannsvei B1",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/lachmannsvei-b1",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "91a50117-2c9f-4762-a93e-9195aab4be96",
     "uuid": "91a50117-2c9f-4762-a93e-9195aab4be96",
     "name": "Hotvetallen",
@@ -577,6 +745,18 @@
       "Disclaimer"
     ],
     "image": "/previews/91a50117-2c9f-4762-a93e-9195aab4be96.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "7a2a1753-b678-4778-8933-4da6b818a154",
+    "uuid": "7a2a1753-b678-4778-8933-4da6b818a154",
+    "name": "Visningsleilighet C 403",
+    "client": "Scandinavian Property Group AS",
+    "link": "https://scandinavianpropertygroup.com/no/vare-prosjekter/hotvetalleen/til-salgs/visningsleilighet-c-403",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -652,6 +832,18 @@
     "status": "Public"
   },
   {
+    "id": "050278eb-394a-43fe-adbe-b273b4350290",
+    "uuid": "050278eb-394a-43fe-adbe-b273b4350290",
+    "name": "Visningsleilighet A 403",
+    "client": "Scandinavian Property Group AS",
+    "link": "https://scandinavianpropertygroup.com/no/vare-prosjekter/hotvetalleen/til-salgs/visningsleilighet-a-403",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "ae865167-52e0-4f15-a43f-d4a50a924e66",
     "uuid": "ae865167-52e0-4f15-a43f-d4a50a924e66",
     "name": "Stor-oslo Eiendom AS",
@@ -704,6 +896,44 @@
     "status": "Public"
   },
   {
+    "id": "da295362-3f28-4680-8cb0-d49fa4d0c7ec",
+    "uuid": "da295362-3f28-4680-8cb0-d49fa4d0c7ec",
+    "name": "Lachmannsvei C1",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/lachmannsvei-c1",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "39aff862-9068-46c0-bddb-67a082d615fe",
+    "uuid": "39aff862-9068-46c0-bddb-67a082d615fe",
+    "name": "Lachmannsvei B3",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/lachmannsvei-b3",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "2321adda-2caf-4812-ad13-bd4a6d2bff69",
+    "uuid": "2321adda-2caf-4812-ad13-bd4a6d2bff69",
+    "name": "Atelierhagen",
+    "client": "ABBL",
+    "link": "https://atelierhagen.no/no/til-salgs/boligvelger",
+    "type": "Unit Finder",
+    "features": [
+      "Disclaimer"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "50651ef4-5e0b-499c-b2b6-b487a4c7efe6",
     "uuid": "50651ef4-5e0b-499c-b2b6-b487a4c7efe6",
     "name": "Stovner Torg",
@@ -712,6 +942,18 @@
     "type": "Showroom",
     "features": [],
     "image": "/previews/50651ef4-5e0b-499c-b2b6-b487a4c7efe6.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "2a866a91-07db-44cb-965f-7b3d111b4060",
+    "uuid": "2a866a91-07db-44cb-965f-7b3d111b4060",
+    "name": "Lachmannsvei B2",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/lachmannsvei-b2",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -730,6 +972,18 @@
     "status": "Public"
   },
   {
+    "id": "a74d300f-9ee4-45cb-b798-574bd779f30a",
+    "uuid": "a74d300f-9ee4-45cb-b798-574bd779f30a",
+    "name": "Avantor_Kystbyen Slemmestad_Trinn 2_Interior_A2-201",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/avantor_kystbyen-slemmestad_trinn-2_a2-201",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "f6de0253-d197-40f1-8c4f-2f28ff0c56b8",
     "uuid": "f6de0253-d197-40f1-8c4f-2f28ff0c56b8",
     "name": "Ibsenkvartalet-exterior2",
@@ -744,6 +998,42 @@
     "status": "Public"
   },
   {
+    "id": "c0c0643f-313a-4ed8-9f95-2dae1a887a03",
+    "uuid": "c0c0643f-313a-4ed8-9f95-2dae1a887a03",
+    "name": "Avantor_Kystbyen Slemmestad_Trinn 2_Interior_A3-601",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/avantor_kystbyen-slemmestad_trinn-2_interior_a3-601",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "cc7cfed8-07b9-4c39-a397-4727b264bdda",
+    "uuid": "cc7cfed8-07b9-4c39-a397-4727b264bdda",
+    "name": "Einerhagen_L-H0409",
+    "client": "PEAB",
+    "link": "https://einerhagen.no/no/templates/boenhet-l-14b93816",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "8f618fff-0e36-44c3-bcf1-0a82b6f1d8ef",
+    "uuid": "8f618fff-0e36-44c3-bcf1-0a82b6f1d8ef",
+    "name": "Fri navigasjon",
+    "client": "Stor-oslo Eiendom AS",
+    "link": "https://soeiendom.no/prosjekter/timbre-fri-navigasjon-2/til-salgs/boligvelger",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
+  },
+  {
     "id": "4bc89979-f0a2-4089-86d3-045e3994c3d7",
     "uuid": "4bc89979-f0a2-4089-86d3-045e3994c3d7",
     "name": "Sandsli Stasjon - Trinn 3",
@@ -754,6 +1044,18 @@
       "Disclaimer"
     ],
     "image": "/previews/4bc89979-f0a2-4089-86d3-045e3994c3d7.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "8657563d-9ea9-402c-976f-86ef211b24b4",
+    "uuid": "8657563d-9ea9-402c-976f-86ef211b24b4",
+    "name": "Einerhagen_P-H0605",
+    "client": "PEAB",
+    "link": "https://einerhagen.no/no/templates/boenhet-p",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -788,6 +1090,18 @@
     "status": "Public"
   },
   {
+    "id": "b45fb079-7157-4724-8279-ae7dc361a92c",
+    "uuid": "b45fb079-7157-4724-8279-ae7dc361a92c",
+    "name": "Plyo",
+    "client": "Plyo",
+    "link": "https://test-turufjell.plyo.cloud/nybygg/boliger-til-salgs/slattelia/til-salgs/boligvelger",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
+  },
+  {
     "id": "5ea961b1-eb82-445f-97dc-bcee4ffb54b7",
     "uuid": "5ea961b1-eb82-445f-97dc-bcee4ffb54b7",
     "name": "Slippen - Trinn 1",
@@ -802,6 +1116,30 @@
     "status": "Public"
   },
   {
+    "id": "abdf2754-90b9-4005-ad95-2260e456a384",
+    "uuid": "abdf2754-90b9-4005-ad95-2260e456a384",
+    "name": "Test - Turufjell Sprenåsen",
+    "client": "Plyo",
+    "link": "",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "e809ddbe-6075-4f05-a638-374941aee2f0",
+    "uuid": "e809ddbe-6075-4f05-a638-374941aee2f0",
+    "name": "New Homes",
+    "client": "Plyo",
+    "link": "",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
+  },
+  {
     "id": "b065babc-9188-40d7-b7d0-71afa9cdc625",
     "uuid": "b065babc-9188-40d7-b7d0-71afa9cdc625",
     "name": "Bøkestredet 2",
@@ -812,6 +1150,42 @@
       "Disclaimer"
     ],
     "image": "/previews/b065babc-9188-40d7-b7d0-71afa9cdc625.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "b099cb60-589c-40f0-82c5-ddc2f03c4de1",
+    "uuid": "b099cb60-589c-40f0-82c5-ddc2f03c4de1",
+    "name": "Showroom_Tutorial",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/showroom_tutorial",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "9f728303-9d67-4f45-89bf-7fea364aed9f",
+    "uuid": "9f728303-9d67-4f45-89bf-7fea364aed9f",
+    "name": "Plyo",
+    "client": "Plyo",
+    "link": "https://test-turufjell.plyo.cloud/nybygg/boliger-til-salgs/slatta-ost/til-salgs/boligvelger",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "ddf0c9bd-e148-43b0-9958-565e0211d415",
+    "uuid": "ddf0c9bd-e148-43b0-9958-565e0211d415",
+    "name": "Nooka Showroom",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/nooka-showroom",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -846,6 +1220,30 @@
     "status": "Public"
   },
   {
+    "id": "c59f5d36-66d0-4c3f-a8da-9daa316b6008",
+    "uuid": "c59f5d36-66d0-4c3f-a8da-9daa316b6008",
+    "name": "Saga Ås Showroom",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/saga-as-showroom",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "a8e56072-88ad-4af9-983c-9b6ae675e8c9",
+    "uuid": "a8e56072-88ad-4af9-983c-9b6ae675e8c9",
+    "name": "Lachmannsvei Panorama A3",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/lachmannsvei-A3",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "0b048086-f033-49e8-ae21-3cc5ddf8ad8d",
     "uuid": "0b048086-f033-49e8-ae21-3cc5ddf8ad8d",
     "name": "Kystbyen Slemmestad - Trinn 2",
@@ -860,6 +1258,44 @@
     "status": "Public"
   },
   {
+    "id": "bcaf798b-7794-4c72-85df-d0d44a6b6387",
+    "uuid": "bcaf798b-7794-4c72-85df-d0d44a6b6387",
+    "name": "tester",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/tester",
+    "type": "Unit Finder",
+    "features": [
+      "Disclaimer"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "5772521f-8deb-4034-8e34-4f1110a92794",
+    "uuid": "5772521f-8deb-4034-8e34-4f1110a92794",
+    "name": "D404",
+    "client": "Scandinavian Property Group AS",
+    "link": "https://scandinavianpropertygroup.com/no/vare-prosjekter/brygga-hamar/til-salgs/e303",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "6304d3b0-ad54-4c59-bb55-70ec5b90a0e9",
+    "uuid": "6304d3b0-ad54-4c59-bb55-70ec5b90a0e9",
+    "name": "D404",
+    "client": "Scandinavian Property Group AS",
+    "link": "https://scandinavianpropertygroup.com/no/vare-prosjekter/brygga-hamar/til-salgs/d404",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "6ec2d283-df47-4cfc-9350-31d5f9ba32c5",
     "uuid": "6ec2d283-df47-4cfc-9350-31d5f9ba32c5",
     "name": "Møllestrøket - B2",
@@ -868,6 +1304,18 @@
     "type": "Unit Finder",
     "features": [],
     "image": "/previews/6ec2d283-df47-4cfc-9350-31d5f9ba32c5.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "2f642896-c769-45f4-a69e-f333f346336f",
+    "uuid": "2f642896-c769-45f4-a69e-f333f346336f",
+    "name": "Timbre-DEV",
+    "client": "Stor-oslo Eiendom AS",
+    "link": "https://soeiendom.no/prosjekter/timbre-fri-navigasjon-2/til-salgs/boenhet-2d924de4",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -928,6 +1376,18 @@
     "status": "Public"
   },
   {
+    "id": "83c309d5-d54e-4b3b-8017-dd5683ba8bbe",
+    "uuid": "83c309d5-d54e-4b3b-8017-dd5683ba8bbe",
+    "name": "Lebakken Torg",
+    "client": "A Utvik AS",
+    "link": "https://lebakken.plyo.cloud/no/til-salgs/boligvelger",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "b34581cb-9479-4972-914b-d6086ee6c691",
     "uuid": "b34581cb-9479-4972-914b-d6086ee6c691",
     "name": "Silveraxet Norra",
@@ -942,6 +1402,18 @@
     "status": "Public"
   },
   {
+    "id": "69c582ca-ad37-45ba-a0b3-14270147a042",
+    "uuid": "69c582ca-ad37-45ba-a0b3-14270147a042",
+    "name": "Strindalia",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/strindalia",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
+  },
+  {
     "id": "701f07c4-2071-4e8d-8e57-ed6faa13df7c",
     "uuid": "701f07c4-2071-4e8d-8e57-ed6faa13df7c",
     "name": "Sandsli Stasjon - Trinn 2",
@@ -952,6 +1424,20 @@
       "Disclaimer"
     ],
     "image": "/previews/701f07c4-2071-4e8d-8e57-ed6faa13df7c.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "dd22101a-1c9f-4f5f-b9b3-1a51bb1424f0",
+    "uuid": "dd22101a-1c9f-4f5f-b9b3-1a51bb1424f0",
+    "name": "Drammen Helsepark-Trekkeriet showroom",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/drammen-helsepark-trekkeriet-showroom",
+    "type": "Showroom",
+    "features": [
+      "Floor Plan"
+    ],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -1097,6 +1583,30 @@
     "status": "Public"
   },
   {
+    "id": "486113e1-2cf7-40d0-86a0-ff0f016c43e4",
+    "uuid": "486113e1-2cf7-40d0-86a0-ff0f016c43e4",
+    "name": "Staging Showroom",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/staging-showroom",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "c8105382-ed7c-4224-ae81-ab98ce205a9a",
+    "uuid": "c8105382-ed7c-4224-ae81-ab98ce205a9a",
+    "name": "Hagby-Gårdskvarter_G2_Speilvendt",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/hagby-gardskvarter_g2_speilvendt",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "49b5374a-b2df-4206-9342-b853832baeb1",
     "uuid": "49b5374a-b2df-4206-9342-b853832baeb1",
     "name": "Elvebredden",
@@ -1113,6 +1623,20 @@
     "status": "Public"
   },
   {
+    "id": "6aa49b04-5452-40cd-86b3-0875b43b59ac",
+    "uuid": "6aa49b04-5452-40cd-86b3-0875b43b59ac",
+    "name": "Vannkunsten 11.6.1 Showroom",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/vannkunsten_11_6_1_showroom",
+    "type": "Showroom",
+    "features": [
+      "Floor Plan"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "2da60c82-bb2f-43ca-93fb-47c4fb4914d9",
     "uuid": "2da60c82-bb2f-43ca-93fb-47c4fb4914d9",
     "name": "Mistel Park",
@@ -1123,6 +1647,20 @@
       "Disclaimer"
     ],
     "image": "/previews/2da60c82-bb2f-43ca-93fb-47c4fb4914d9.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "52294972-571d-4ddf-9c45-8906e83b6a38",
+    "uuid": "52294972-571d-4ddf-9c45-8906e83b6a38",
+    "name": "Silveraxet_31503_Showroom",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/silveraxet_31503_showroom",
+    "type": "Showroom",
+    "features": [
+      "Floor Plan"
+    ],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -1164,6 +1702,18 @@
       "Styles"
     ],
     "image": "/previews/91074446-1206-4a2c-ac48-dc565ed6deb8.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "690bf622-c49a-465d-96ff-0fb15173bfb8",
+    "uuid": "690bf622-c49a-465d-96ff-0fb15173bfb8",
+    "name": "Hagby-Gårdskvarter_G2_Showroom",
+    "client": "Nordr Eiendom",
+    "link": "https://www.nordr.com/se/hitta-din-bostad/hagby-gardskvarter/till-salu/digital-visning",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -1275,6 +1825,18 @@
     "image": "/previews/f1663530-68d1-4f0c-8202-e3665140f830.webp",
     "isShowcase": false,
     "status": "Public"
+  },
+  {
+    "id": "921f3d65-9425-46f4-868f-2d1446154edc",
+    "uuid": "921f3d65-9425-46f4-868f-2d1446154edc",
+    "name": "Verkets Have",
+    "client": "Plyo AS",
+    "link": "",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
   },
   {
     "id": "3839eb26-1b6d-403a-a629-7888d198fc32",
@@ -1395,6 +1957,18 @@
     "status": "Public"
   },
   {
+    "id": "54463846-fa2a-48e4-82a4-cd307900e5fd",
+    "uuid": "54463846-fa2a-48e4-82a4-cd307900e5fd",
+    "name": "Beliggenhet",
+    "client": "Plyo",
+    "link": "https://test-disclaimer.plyo.cloud/en/nybygg/boliger-til-salgs/test-project-3/til-salgs/beliggenhet",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "2484f230-33a5-4ec1-9de8-e10263f256a9",
     "uuid": "2484f230-33a5-4ec1-9de8-e10263f256a9",
     "name": "Madlalia",
@@ -1424,6 +1998,18 @@
     "status": "Public"
   },
   {
+    "id": "f6228faf-dfb7-4cf9-924a-b17b8518b9b7",
+    "uuid": "f6228faf-dfb7-4cf9-924a-b17b8518b9b7",
+    "name": "WebP_Interior_Showroom_Testing",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/webp_interior_showroom_testing",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "e6b95719-9f5d-4f05-9fa3-2b235d1ccbb4",
     "uuid": "e6b95719-9f5d-4f05-9fa3-2b235d1ccbb4",
     "name": "Nøstet Sjøfront",
@@ -1448,6 +2034,20 @@
       "Disclaimer"
     ],
     "image": "/previews/e17b5294-a5ec-4f1f-92df-7ce7a9deb931.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "5f5d514a-03a0-45d6-ad30-d927764fcf90",
+    "uuid": "5f5d514a-03a0-45d6-ad30-d927764fcf90",
+    "name": "Interiør",
+    "client": "J. Berstad Eiendom AS",
+    "link": "https://nostet-sjofront.no/prosjekt/til-salgs/interior",
+    "type": "Showroom",
+    "features": [
+      "Floor Plan"
+    ],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -1490,6 +2090,18 @@
     "image": "/previews/905e8042-54c9-4f4f-8303-de531b808e94.webp",
     "isShowcase": false,
     "status": "Public"
+  },
+  {
+    "id": "f2e7b685-7579-4e51-9e20-9449b42db1b9",
+    "uuid": "f2e7b685-7579-4e51-9e20-9449b42db1b9",
+    "name": "Interior showroom demo",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/interior-showroom-demo",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
   },
   {
     "id": "30b4080e-728c-44d9-9ffe-edbfe6429593",
@@ -1570,6 +2182,34 @@
     "status": "Public"
   },
   {
+    "id": "e81be079-7567-40ac-a8b0-0e89042054f1",
+    "uuid": "e81be079-7567-40ac-a8b0-0e89042054f1",
+    "name": "Nesodden v2",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/nesodden-v2",
+    "type": "Unit Finder",
+    "features": [
+      "Disclaimer"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
+  },
+  {
+    "id": "3fc15aaa-ca14-437e-8977-76f8b425a70f",
+    "uuid": "3fc15aaa-ca14-437e-8977-76f8b425a70f",
+    "name": "Kystbyen Slemmestad B5-403",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/kystbyen-slemmestad-B5-403",
+    "type": "Showroom",
+    "features": [
+      "Floor Plan"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "96e96eb1-6b80-4b20-ba8a-b79ee43743bc",
     "uuid": "96e96eb1-6b80-4b20-ba8a-b79ee43743bc",
     "name": "Mariakvartalet - Markerless navigation",
@@ -1638,6 +2278,32 @@
     "status": "Public"
   },
   {
+    "id": "608f93d7-305c-43f2-b4cd-404523754c76",
+    "uuid": "608f93d7-305c-43f2-b4cd-404523754c76",
+    "name": "Heggedal Hage",
+    "client": "Thon Eiendom",
+    "link": "https://heggedalhage.plyo.cloud/heggedal-hage",
+    "type": "Unit Finder",
+    "features": [
+      "Disclaimer"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "c080a118-3e66-4e6e-b3b0-963b254a389b",
+    "uuid": "c080a118-3e66-4e6e-b3b0-963b254a389b",
+    "name": "Rolvsrud Arena visningsleilighet",
+    "client": "AF Eiendom",
+    "link": "",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "582e153b-fef6-478d-bb6f-de6c4a1e010a",
     "uuid": "582e153b-fef6-478d-bb6f-de6c4a1e010a",
     "name": "Leangen B3",
@@ -1664,6 +2330,18 @@
     "image": "/previews/6c615fd0-73d9-47b5-9e37-0648e93bf457.webp",
     "isShowcase": false,
     "status": "Public"
+  },
+  {
+    "id": "b70f0f95-e0dc-48c1-b1a0-61d2726bfac8",
+    "uuid": "b70f0f95-e0dc-48c1-b1a0-61d2726bfac8",
+    "name": "Verksåsen",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/verksasen",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
   },
   {
     "id": "e547fe67-9bb2-457b-bfec-5e14899880d7",
@@ -1744,6 +2422,20 @@
     "status": "Public"
   },
   {
+    "id": "a6b875e1-06f1-461e-9a16-515623d1202b",
+    "uuid": "a6b875e1-06f1-461e-9a16-515623d1202b",
+    "name": "Trinn 2 VIP",
+    "client": "Nåbo AS",
+    "link": "https://naabo.no/prosjekter/boliger-til-salgs/gartneritaket/til-salgs/boligvelger/trinn-2-vip",
+    "type": "Unit Finder",
+    "features": [
+      "Disclaimer"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
+  },
+  {
     "id": "266420ab-2222-4862-aba1-b796f47099f4",
     "uuid": "266420ab-2222-4862-aba1-b796f47099f4",
     "name": "Silveraxet",
@@ -1812,6 +2504,20 @@
     "status": "Public"
   },
   {
+    "id": "81e96641-3ae4-45dc-bcf9-ed7d3b5125e3",
+    "uuid": "81e96641-3ae4-45dc-bcf9-ed7d3b5125e3",
+    "name": "Enhet m. innglasset balkong",
+    "client": "Nåbo AS",
+    "link": "https://naabo.no/prosjekter/boliger-til-salgs/gartneritaket/templates/enhet-m-innglasset-balkong-5e004556",
+    "type": "Unit Finder",
+    "features": [
+      "Disclaimer"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "0380dbde-72eb-4be2-86d1-9d3a471cfde7",
     "uuid": "0380dbde-72eb-4be2-86d1-9d3a471cfde7",
     "name": "Turufjell 2",
@@ -1840,6 +2546,18 @@
     "status": "Public"
   },
   {
+    "id": "6f1ae969-c38b-47bd-b4fd-a3f42f0119fe",
+    "uuid": "6f1ae969-c38b-47bd-b4fd-a3f42f0119fe",
+    "name": "Leilighet VIP",
+    "client": "Ferd Eiendom AS",
+    "link": "https://kobberkvartalet.no/prospekt/templates/leilighet-vip-no-garage-ef7ca7c6",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "f5eb3ce8-4323-441b-8f1b-1031dc166a64",
     "uuid": "f5eb3ce8-4323-441b-8f1b-1031dc166a64",
     "name": "Tomtevelger",
@@ -1852,6 +2570,18 @@
     "image": "/previews/f5eb3ce8-4323-441b-8f1b-1031dc166a64.webp",
     "isShowcase": false,
     "status": "Public"
+  },
+  {
+    "id": "20728fa3-51bf-46b4-a2bd-4200641c618d",
+    "uuid": "20728fa3-51bf-46b4-a2bd-4200641c618d",
+    "name": "test",
+    "client": "test",
+    "link": "https://test-susanin-nav-frame.plyo.cloud/nybygg/boliger-til-salgs/new-homes-single-project/templates/boenhet-44e81b57",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
   },
   {
     "id": "cf97160f-204e-4085-bac2-c53aafc8f607",
@@ -1934,6 +2664,18 @@
       "Disclaimer"
     ],
     "image": "/previews/9e900ca4-cef2-4ac4-9466-7294b6c7ecee.webp",
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
+    "id": "dea422dc-1b28-456c-8e8a-2b7ef139011c",
+    "uuid": "dea422dc-1b28-456c-8e8a-2b7ef139011c",
+    "name": "Pynteneset",
+    "client": "EIE Stavanger AS",
+    "link": "https://pynteneset.plyo.cloud/new-homes-single-project/til-salgs/boligvelger",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
     "isShowcase": false,
     "status": "Public"
   },
@@ -2046,6 +2788,18 @@
     "status": "Public"
   },
   {
+    "id": "c242b690-5ad3-4634-b824-eaef2b530b45",
+    "uuid": "c242b690-5ad3-4634-b824-eaef2b530b45",
+    "name": "Ankerhagen Interior",
+    "client": "SPG",
+    "link": "https://ankerhagen.plyo.cloud/new-homes-single-project/templates/boenhet-b405-756c1bc4",
+    "type": "Showroom",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Public"
+  },
+  {
     "id": "e745db98-e241-44d7-a541-d5cce39b4e7b",
     "uuid": "e745db98-e241-44d7-a541-d5cce39b4e7b",
     "name": "Poulssons Kvarter Interior",
@@ -2060,6 +2814,18 @@
     "image": "/previews/e745db98-e241-44d7-a541-d5cce39b4e7b.webp",
     "isShowcase": false,
     "status": "Public"
+  },
+  {
+    "id": "7bb1db6c-6ee5-44d5-a791-6fd4b8ccddf6",
+    "uuid": "7bb1db6c-6ee5-44d5-a791-6fd4b8ccddf6",
+    "name": "Plyo",
+    "client": "Plyo",
+    "link": "https://demo-mariakvartalet.plyo.cloud/new-homes-single-project/til-salgs/boligvelger",
+    "type": "Unit Finder",
+    "features": [],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
   },
   {
     "id": "651ef4c8-959d-46e4-887b-b252e1a00f86",
@@ -2140,5 +2906,19 @@
     "image": "/previews/4098f8eb-135c-4504-9f6a-b73657d2602b.webp",
     "isShowcase": false,
     "status": "Public"
+  },
+  {
+    "id": "f782318f-6f20-451c-a5b5-beb6039054cb",
+    "uuid": "f782318f-6f20-451c-a5b5-beb6039054cb",
+    "name": "Fredheimkvartalet",
+    "client": "Plyo AS",
+    "link": "https://explore.plyo.cloud/fredheimkvartalet",
+    "type": "Unit Finder",
+    "features": [
+      "Disclaimer"
+    ],
+    "image": null,
+    "isShowcase": false,
+    "status": "Private"
   }
 ]
