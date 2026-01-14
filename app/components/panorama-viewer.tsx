@@ -20,7 +20,7 @@ const loadViewer = async () => {
       document.head.appendChild(link);
       cssLoaded = true;
     }
-    
+
     // Load the viewer module
     viewerModule = await import('photo-sphere-viewer');
     // Try different possible exports
@@ -56,9 +56,9 @@ interface PanoramaViewerProps {
   disableInteraction?: boolean; // Disable user interaction (mouse/touch) - makes it a slave to external rotation
 }
 
-export function PanoramaViewer({ 
-  imageSrc, 
-  autoRotate = true, 
+export function PanoramaViewer({
+  imageSrc,
+  autoRotate = true,
   rotationSpeed = 0.5, // 360 degrees in 720 seconds = 0.5 deg/sec
   initialPitch,
   initialYaw,
@@ -89,7 +89,7 @@ export function PanoramaViewer({
     }
 
     const container = containerRef.current;
-    
+
     // Check if container has dimensions - if not, wait a bit
     const checkDimensions = () => {
       const rect = container.getBoundingClientRect();
@@ -99,12 +99,12 @@ export function PanoramaViewer({
       }
       return false;
     };
-    
+
     // Try immediately
     if (checkDimensions()) {
       return;
     }
-    
+
     // If no dimensions yet, check again after a short delay
     const timeout = setTimeout(() => {
       if (checkDimensions()) {
@@ -113,7 +113,7 @@ export function PanoramaViewer({
       // If still no dimensions, initialize anyway (might be in a hidden panel that will show)
       setIsVisible(true);
     }, 100);
-    
+
     // Also use Intersection Observer as backup
     if (typeof IntersectionObserver !== 'undefined') {
       const observer = new IntersectionObserver(
@@ -138,7 +138,7 @@ export function PanoramaViewer({
         observer.disconnect();
       };
     }
-    
+
     return () => {
       clearTimeout(timeout);
     };
@@ -148,56 +148,56 @@ export function PanoramaViewer({
     if (!isVisible || !containerRef.current) {
       return;
     }
-    
+
     // Prevent multiple initializations - if viewer already exists or we're initializing, don't create another
     if (viewerRef.current || isInitializingRef.current) {
       return;
     }
-    
+
     isInitializingRef.current = true;
-    
+
     // Initialize viewer (logging removed - only log errors)
 
     const container = containerRef.current;
     let isMounted = true; // Track if component is still mounted
-    
+
     // Set up global error suppression for photo-sphere-viewer errors
     // This needs to be active during the entire initialization process
     const originalConsoleError = console.error;
     const originalConsoleWarn = console.warn;
-    
+
     const errorFilter = (args: any[]) => {
       const message = String(args[0] || '');
       const stack = String(args[1] || '');
       const fullMessage = message + ' ' + stack;
       // Suppress known harmless errors from photo-sphere-viewer
       // These occur due to Three.js version conflicts but don't affect functionality
-      return (fullMessage.includes('loader') || 
-              fullMessage.includes('classList') ||
-              (fullMessage.includes('Cannot read properties of undefined') && fullMessage.includes('reading'))) &&
-             (fullMessage.includes('photo-sphere-viewer') || 
-              fullMessage.includes('photo-sphere-viewer.js') ||
-              fullMessage.includes('three.cjs'));
+      return (fullMessage.includes('loader') ||
+        fullMessage.includes('classList') ||
+        (fullMessage.includes('Cannot read properties of undefined') && fullMessage.includes('reading'))) &&
+        (fullMessage.includes('photo-sphere-viewer') ||
+          fullMessage.includes('photo-sphere-viewer.js') ||
+          fullMessage.includes('three.cjs'));
     };
-    
+
     const warnFilter = (args: any[]) => {
       const message = String(args[0] || '');
       // Suppress known harmless warnings
       return message.includes('Multiple instances of Three.js');
     };
-    
+
     console.error = (...args: any[]) => {
       if (!errorFilter(args)) {
         originalConsoleError.apply(console, args);
       }
     };
-    
+
     console.warn = (...args: any[]) => {
       if (!warnFilter(args)) {
         originalConsoleWarn.apply(console, args);
       }
     };
-    
+
     // Also handle unhandled promise rejections from photo-sphere-viewer
     const unhandledRejectionHandler = (event: PromiseRejectionEvent) => {
       const error = event.reason;
@@ -205,19 +205,19 @@ export function PanoramaViewer({
       const stack = error?.stack || '';
       const fullMessage = message + ' ' + stack;
       // Suppress known harmless promise rejections from photo-sphere-viewer
-      if ((fullMessage.includes('loader') || 
-           fullMessage.includes('classList') ||
-           (fullMessage.includes('Cannot read properties of undefined') && fullMessage.includes('reading'))) &&
-          (fullMessage.includes('photo-sphere-viewer') || 
-           fullMessage.includes('photo-sphere-viewer.js') ||
-           fullMessage.includes('three.cjs'))) {
+      if ((fullMessage.includes('loader') ||
+        fullMessage.includes('classList') ||
+        (fullMessage.includes('Cannot read properties of undefined') && fullMessage.includes('reading'))) &&
+        (fullMessage.includes('photo-sphere-viewer') ||
+          fullMessage.includes('photo-sphere-viewer.js') ||
+          fullMessage.includes('three.cjs'))) {
         event.preventDefault(); // Suppress the error
         return;
       }
     };
-    
+
     window.addEventListener('unhandledrejection', unhandledRejectionHandler);
-    
+
     // Wait for container to have dimensions
     let dimensionCheckTimeout: NodeJS.Timeout;
     const checkDimensions = () => {
@@ -225,36 +225,36 @@ export function PanoramaViewer({
       if (!isMounted || !containerRef.current) {
         return;
       }
-      
+
       const width = container.clientWidth;
       const height = container.clientHeight;
-      
+
       if (width === 0 || height === 0) {
         dimensionCheckTimeout = setTimeout(checkDimensions, 100);
         return;
       }
-      
+
       initializeViewer(width, height).catch((error) => {
         if (isMounted) {
           // Suppress known photo-sphere-viewer errors
           const errorMessage = error?.message || String(error || '');
           const errorStack = error?.stack || '';
           const fullError = errorMessage + ' ' + errorStack;
-          if (!((fullError.includes('loader') || 
-                 fullError.includes('classList') ||
-                 (fullError.includes('Cannot read properties of undefined') && fullError.includes('reading'))) &&
-                (fullError.includes('photo-sphere-viewer') || 
-                 fullError.includes('photo-sphere-viewer.js') ||
-                 fullError.includes('three.cjs')))) {
+          if (!((fullError.includes('loader') ||
+            fullError.includes('classList') ||
+            (fullError.includes('Cannot read properties of undefined') && fullError.includes('reading'))) &&
+            (fullError.includes('photo-sphere-viewer') ||
+              fullError.includes('photo-sphere-viewer.js') ||
+              fullError.includes('three.cjs')))) {
             console.error('PanoramaViewer: Error in initializeViewer:', error);
           }
           setLoadError(true);
         }
       });
     };
-    
+
     checkDimensions();
-    
+
     // Helper function to initialize viewer with a specific image URL
     async function initializeViewerWithImage(imgSrc: string, width: number, height: number) {
       // Check if component is still mounted and container still exists
@@ -263,12 +263,12 @@ export function PanoramaViewer({
       }
 
       const container = containerRef.current;
-      
+
       // Verify container is still in the DOM
       if (!container.parentElement && !document.body.contains(container)) {
         return;
       }
-      
+
       // Validate image URL before proceeding
       if (!imgSrc || imgSrc.trim() === '') {
         console.error('[PanoramaViewer] Empty image URL provided');
@@ -278,10 +278,10 @@ export function PanoramaViewer({
         }
         return;
       }
-      
+
       // Store timeout reference for cleanup
       let loadingTimeout: NodeJS.Timeout | null = null;
-      
+
       // Ensure URL is absolute
       let absoluteUrl = imgSrc;
       if (!imgSrc.startsWith('http://') && !imgSrc.startsWith('https://') && !imgSrc.startsWith('data:')) {
@@ -295,23 +295,23 @@ export function PanoramaViewer({
         }
         console.log('[PanoramaViewer] Converted relative URL to absolute:', { original: imgSrc, absolute: absoluteUrl });
       }
-      
+
       // Check if image URL is accessible before initializing viewer
       try {
         const img = new Image();
         img.crossOrigin = 'anonymous';
-        
+
         const imageLoadPromise = new Promise<boolean>((resolve) => {
           const timeout = setTimeout(() => {
             console.error('[PanoramaViewer] Image validation timeout after 15 seconds for URL:', absoluteUrl);
             resolve(false);
           }, 15000);
-          
+
           img.onload = () => {
             clearTimeout(timeout);
             resolve(true);
           };
-          
+
           img.onerror = (error) => {
             clearTimeout(timeout);
             console.error('[PanoramaViewer] Image validation failed - image cannot be loaded:', {
@@ -321,10 +321,10 @@ export function PanoramaViewer({
             });
             resolve(false);
           };
-          
+
           img.src = absoluteUrl;
         });
-        
+
         const imageValid = await imageLoadPromise;
         if (!imageValid) {
           console.error('[PanoramaViewer] Image validation failed, aborting viewer initialization');
@@ -334,7 +334,7 @@ export function PanoramaViewer({
           }
           return;
         }
-        
+
         // Update imgSrc to use absolute URL
         imgSrc = absoluteUrl;
       } catch (validationError) {
@@ -355,13 +355,13 @@ export function PanoramaViewer({
       }
 
       try {
-        
+
         // Calculate autorotate speed from rotationSpeed prop: convert deg/sec to RPM
         // rotationSpeed = degrees per second
         // RPM = (rotationSpeed * 60) / 360 = rotationSpeed / 6
         // Example: 6 deg/sec = 1 rpm (60 seconds per rotation)
         const autorotateSpeed = autoRotate ? `${(rotationSpeed / 6).toFixed(3)}rpm` : null;
-        
+
         // Convert pitch/yaw from degrees to radians for Photo Sphere Viewer
         // Photo Sphere Viewer uses:
         // - defaultLong: longitude (horizontal, yaw) in radians, -π to π, 0 = north, -π/2 = west
@@ -371,7 +371,7 @@ export function PanoramaViewer({
         // Pitch: 0° = horizon, positive = up, negative = down
         let defaultLong = -Math.PI / 2; // Default: -90° (west)
         let defaultLat = 0; // Default: horizon
-        
+
         if (initialYaw !== undefined && !Number.isNaN(initialYaw) && Number.isFinite(initialYaw)) {
           // Convert yaw from degrees to radians
           // Yaw: 0° = north, but Photo Sphere Viewer: 0 = north, -π/2 = west
@@ -382,7 +382,7 @@ export function PanoramaViewer({
             defaultLong = -Math.PI / 2; // Fallback to default
           }
         }
-        
+
         if (initialPitch !== undefined && !Number.isNaN(initialPitch) && Number.isFinite(initialPitch)) {
           // Convert pitch from degrees to radians
           // Pitch: positive = up, negative = down
@@ -395,7 +395,7 @@ export function PanoramaViewer({
             defaultLat = 0; // Fallback to horizon
           }
         }
-        
+
         // Final check before creating viewer
         if (!isMounted || !containerRef.current || !document.body.contains(container)) {
           return;
@@ -407,12 +407,12 @@ export function PanoramaViewer({
           if (!container || !container.parentElement || !document.body.contains(container)) {
             return;
           }
-          
+
           // Suppress known photo-sphere-viewer initialization errors
           // These errors occur due to Three.js version conflicts but don't affect functionality
           const originalConsoleError = console.error;
           const originalConsoleWarn = console.warn;
-          
+
           const errorFilter = (args: any[]) => {
             const message = String(args[0] || '');
             const stack = String(args[1] || '');
@@ -420,29 +420,29 @@ export function PanoramaViewer({
             // Suppress known harmless errors from photo-sphere-viewer
             // These occur due to Three.js version conflicts but don't affect functionality
             return fullMessage.includes('loader') && (fullMessage.includes('photo-sphere-viewer') || fullMessage.includes('photo-sphere-viewer.js')) ||
-                   fullMessage.includes('classList') && (fullMessage.includes('photo-sphere-viewer') || fullMessage.includes('photo-sphere-viewer.js')) ||
-                   (fullMessage.includes('Cannot read properties of undefined') && fullMessage.includes('reading')) && 
-                   (fullMessage.includes('photo-sphere-viewer') || fullMessage.includes('photo-sphere-viewer.js'));
+              fullMessage.includes('classList') && (fullMessage.includes('photo-sphere-viewer') || fullMessage.includes('photo-sphere-viewer.js')) ||
+              (fullMessage.includes('Cannot read properties of undefined') && fullMessage.includes('reading')) &&
+              (fullMessage.includes('photo-sphere-viewer') || fullMessage.includes('photo-sphere-viewer.js'));
           };
-          
+
           const warnFilter = (args: any[]) => {
             const message = String(args[0] || '');
             // Suppress known harmless warnings
             return message.includes('Multiple instances of Three.js');
           };
-          
+
           console.error = (...args: any[]) => {
             if (!errorFilter(args)) {
               originalConsoleError.apply(console, args);
             }
           };
-          
+
           console.warn = (...args: any[]) => {
             if (!warnFilter(args)) {
               originalConsoleWarn.apply(console, args);
             }
           };
-          
+
           // Also handle unhandled promise rejections from photo-sphere-viewer
           let unhandledRejectionHandler: ((event: PromiseRejectionEvent) => void) | null = null;
           unhandledRejectionHandler = (event: PromiseRejectionEvent) => {
@@ -451,23 +451,23 @@ export function PanoramaViewer({
             const stack = error?.stack || '';
             const fullMessage = message + ' ' + stack;
             // Suppress known harmless promise rejections from photo-sphere-viewer
-            if ((fullMessage.includes('loader') || 
-                 fullMessage.includes('classList') ||
-                 fullMessage.includes('Cannot read properties of undefined')) &&
-                (fullMessage.includes('photo-sphere-viewer') || fullMessage.includes('photo-sphere-viewer.js'))) {
+            if ((fullMessage.includes('loader') ||
+              fullMessage.includes('classList') ||
+              fullMessage.includes('Cannot read properties of undefined')) &&
+              (fullMessage.includes('photo-sphere-viewer') || fullMessage.includes('photo-sphere-viewer.js'))) {
               event.preventDefault(); // Suppress the error
               return;
             }
           };
-          
+
           window.addEventListener('unhandledrejection', unhandledRejectionHandler);
-          
+
           try {
-        // Create viewer (logging removed - only log errors)
-            
+            // Create viewer (logging removed - only log errors)
+
             // Progressive loading: Use low-res image first if provided, then upgrade to high-res
             const initialPanorama = lowResSrc || imgSrc;
-            
+
             // Create viewer configuration
             const viewerConfig: any = {
               container: container,
@@ -489,7 +489,7 @@ export function PanoramaViewer({
               // This ensures drag-to-rotate works properly
               moveSpeed: disableInteraction ? 0 : 1.0, // Explicitly enable dragging when interaction is enabled
             };
-            
+
             // Only add autorotate options if autoRotate is enabled
             if (autoRotate) {
               viewerConfig.autorotateDelay = 0; // Start immediately
@@ -498,9 +498,9 @@ export function PanoramaViewer({
               viewerConfig.autorotateLat = null; // Maintain current latitude (horizon level)
               viewerConfig.autorotateZoomLvl = null; // Preserve current zoom level
             }
-            
+
             viewer = new Viewer(viewerConfig);
-            
+
             // If low-res image was used for initialization, upgrade to high-res after viewer is ready
             if (lowResSrc && lowResSrc !== imgSrc && viewer) {
               // Wait for low-res to load, then replace with high-res
@@ -517,7 +517,7 @@ export function PanoramaViewer({
                 }
               }, 100); // Small delay to ensure low-res is visible first
             }
-            
+
             // If interaction is disabled, prevent all mouse/touch events
             if (disableInteraction && containerRef.current) {
               // Disable pointer events via CSS - prevents all mouse/touch interaction
@@ -538,11 +538,11 @@ export function PanoramaViewer({
             return;
           }
           // Check if it's a classList error, context loss, or DOM cleanup issue
-          if (viewerError?.message?.includes('classList') || 
-              viewerError?.message?.includes('Cannot read properties') ||
-              viewerError?.message?.includes('Context Lost') ||
-              viewerError?.message?.includes('context lost') ||
-              viewerError?.message?.includes('loader')) {
+          if (viewerError?.message?.includes('classList') ||
+            viewerError?.message?.includes('Cannot read properties') ||
+            viewerError?.message?.includes('Context Lost') ||
+            viewerError?.message?.includes('context lost') ||
+            viewerError?.message?.includes('loader')) {
             // Suppress expected errors during initialization
             return;
           }
@@ -553,12 +553,12 @@ export function PanoramaViewer({
         }
 
         viewerRef.current = viewer;
-        
+
         // Expose viewer instance via external ref if provided
         if (externalViewerRef) {
           externalViewerRef.current = viewer;
         }
-        
+
         // CRITICAL: Set up event listeners IMMEDIATELY after viewer creation
         // Photo Sphere Viewer may start loading immediately, so we need listeners ready
         const addListener = viewer.addEventListener || viewer.on;
@@ -569,7 +569,7 @@ export function PanoramaViewer({
           setLoadError(true);
           return;
         }
-        
+
         // Register with WebGL context manager
         const viewerId = viewerIdRef.current;
         const cleanupFn = () => {
@@ -632,10 +632,12 @@ export function PanoramaViewer({
             viewerRef.current = null;
           }
         }, 10000);
-        
+
         addListener.call(viewer, 'ready', () => {
-          clearTimeout(loadingTimeout);
-          
+          if (loadingTimeout) {
+            clearTimeout(loadingTimeout);
+          }
+
           // Check if component is still mounted before updating state
           if (!isMounted || !containerRef.current) {
             if (viewer && typeof viewer.destroy === 'function') {
@@ -647,10 +649,10 @@ export function PanoramaViewer({
             }
             return;
           }
-          
+
           setLoadError(false);
           isInitializingRef.current = false; // Mark initialization as complete
-          
+
           // Helper function to get canvas elements (may need to wait for DOM)
           const getCanvasElements = () => {
             if (!containerRef.current) return { container: null, canvas: null };
@@ -659,7 +661,7 @@ export function PanoramaViewer({
               canvas: containerRef.current.querySelector('.psv-canvas') as HTMLElement
             };
           };
-          
+
           // Set up cursor styles for drag-to-rotate (with small delay to ensure DOM is ready)
           const setupCursor = () => {
             if (disableInteraction) return;
@@ -669,11 +671,11 @@ export function PanoramaViewer({
               canvas.style.cursor = "url('/cursors/hand.svg') 16 16, grab";
             }
           };
-          
+
           // Try immediately, then retry after a short delay if elements not found
           setupCursor();
           setTimeout(setupCursor, 50);
-          
+
           // Set up interaction listeners (for both cursor management and rotation callbacks)
           addListener.call(viewer, 'interaction-start', () => {
             isPanoramaRotatingRef.current = true;
@@ -686,7 +688,7 @@ export function PanoramaViewer({
               }
             }
           });
-          
+
           addListener.call(viewer, 'interaction-end', () => {
             setTimeout(() => {
               isPanoramaRotatingRef.current = false;
@@ -700,27 +702,27 @@ export function PanoramaViewer({
               }
             }, 100);
           });
-          
+
           // Auto-rotation is handled by built-in autorotateSpeed option
           if (autoRotate) {
           }
-          
+
           // Listen for position changes (when user drags the panorama)
           if (onRotationChange) {
-            
+
             addListener.call(viewer, 'position-updated', (event: any) => {
               if (!isMounted) return;
               isPanoramaRotatingRef.current = true; // User is actively rotating
               try {
                 // Get current position from viewer
                 const position = viewer.getPosition();
-                if (position && 
-                    typeof position.longitude === 'number' && 
-                    typeof position.latitude === 'number' &&
-                    !Number.isNaN(position.longitude) &&
-                    !Number.isNaN(position.latitude) &&
-                    Number.isFinite(position.longitude) &&
-                    Number.isFinite(position.latitude)) {
+                if (position &&
+                  typeof position.longitude === 'number' &&
+                  typeof position.latitude === 'number' &&
+                  !Number.isNaN(position.longitude) &&
+                  !Number.isNaN(position.latitude) &&
+                  Number.isFinite(position.longitude) &&
+                  Number.isFinite(position.latitude)) {
                   // Convert from Photo Sphere Viewer coordinates to degrees
                   // Photo Sphere Viewer: longitude in radians (-π to π), latitude in radians (-π/2 to π/2)
                   // longitude: 0 = north, -π/2 = west, π/2 = east
@@ -728,10 +730,10 @@ export function PanoramaViewer({
                   // Convert: yaw = (longitude + π/2) * 180/π
                   const yawDeg = ((position.longitude + Math.PI / 2) * 180 / Math.PI);
                   const pitchDeg = (position.latitude * 180 / Math.PI);
-                  
+
                   // Validate converted values before calling callback
                   if (!Number.isNaN(yawDeg) && !Number.isNaN(pitchDeg) &&
-                      Number.isFinite(yawDeg) && Number.isFinite(pitchDeg)) {
+                    Number.isFinite(yawDeg) && Number.isFinite(pitchDeg)) {
                     onRotationChange(yawDeg, pitchDeg);
                   } else {
                     console.warn('PanoramaViewer: Invalid position values, skipping callback', {
@@ -746,7 +748,7 @@ export function PanoramaViewer({
                 console.error('PanoramaViewer: Error getting position:', error);
               }
             });
-            
+
             // Reset flag when interaction ends (cursor already handled above)
             // Note: interaction-end listener is already set up above for cursor management
           }
@@ -754,7 +756,9 @@ export function PanoramaViewer({
 
         // Handle load errors
         addListener.call(viewer, 'panorama-load-error', (event: any) => {
-          clearTimeout(loadingTimeout);
+          if (loadingTimeout) {
+            clearTimeout(loadingTimeout);
+          }
           console.error('[PanoramaViewer] ❌ Failed to load panorama:', {
             imageSrc: imgSrc,
             event: event,
@@ -775,10 +779,12 @@ export function PanoramaViewer({
             viewerRef.current = null;
           }
         });
-        
+
         // Handle viewer errors
         addListener.call(viewer, 'error', (event: any) => {
-          clearTimeout(loadingTimeout);
+          if (loadingTimeout) {
+            clearTimeout(loadingTimeout);
+          }
           console.error('[PanoramaViewer] ❌ Viewer error event:', {
             event: event,
             imageSrc: imgSrc,
@@ -790,17 +796,17 @@ export function PanoramaViewer({
             onLoadError();
           }
         });
-        
+
         // Listen for panorama loading start (silent - only log on errors)
         addListener.call(viewer, 'panorama-load-start', () => {
           // Panorama loading started
         });
-        
+
         // Listen for panorama loading progress (silent - only log on errors)
         addListener.call(viewer, 'panorama-load-progress', (event: any) => {
           // Panorama loading progress
         });
-        
+
         // Try to manually trigger load if viewer has a load method
         // Some versions of Photo Sphere Viewer need explicit load call
         setTimeout(() => {
@@ -808,7 +814,7 @@ export function PanoramaViewer({
             try {
               // Check if panorama is already set
               const currentPanorama = viewerRef.current.getPanorama ? viewerRef.current.getPanorama() : null;
-              
+
               // If panorama doesn't match, try to set it explicitly
               if (currentPanorama !== imgSrc) {
                 if (typeof viewerRef.current.setPanorama === 'function') {
@@ -839,7 +845,7 @@ export function PanoramaViewer({
 
       // First check if primary image exists before initializing viewer to avoid 404 errors
       const img = new Image();
-      
+
       img.onload = () => {
         // Primary image exists, safe to initialize viewer
         initializeViewerWithImage(imageSrc, width, height).catch((error) => {
@@ -848,17 +854,17 @@ export function PanoramaViewer({
           const errorMessage = error?.message || String(error || '');
           const errorStack = error?.stack || '';
           const fullError = errorMessage + ' ' + errorStack;
-          if (!((fullError.includes('loader') || 
-                 fullError.includes('classList') ||
-                 (fullError.includes('Cannot read properties of undefined') && fullError.includes('reading'))) &&
-                (fullError.includes('photo-sphere-viewer') || 
-                 fullError.includes('photo-sphere-viewer.js') ||
-                 fullError.includes('three.cjs')))) {
+          if (!((fullError.includes('loader') ||
+            fullError.includes('classList') ||
+            (fullError.includes('Cannot read properties of undefined') && fullError.includes('reading'))) &&
+            (fullError.includes('photo-sphere-viewer') ||
+              fullError.includes('photo-sphere-viewer.js') ||
+              fullError.includes('three.cjs')))) {
             console.error('PanoramaViewer: Error in initializeViewerWithImage:', error);
           }
         });
       };
-      
+
       img.onerror = () => {
         // Primary image doesn't exist (404), try fallback if available
         if (fallbackSrc && imageSrc !== fallbackSrc) {
@@ -872,12 +878,12 @@ export function PanoramaViewer({
               const errorMessage = error?.message || String(error || '');
               const errorStack = error?.stack || '';
               const fullError = errorMessage + ' ' + errorStack;
-              if (!((fullError.includes('loader') || 
-                     fullError.includes('classList') ||
-                     (fullError.includes('Cannot read properties of undefined') && fullError.includes('reading'))) &&
-                    (fullError.includes('photo-sphere-viewer') || 
-                     fullError.includes('photo-sphere-viewer.js') ||
-                     fullError.includes('three.cjs')))) {
+              if (!((fullError.includes('loader') ||
+                fullError.includes('classList') ||
+                (fullError.includes('Cannot read properties of undefined') && fullError.includes('reading'))) &&
+                (fullError.includes('photo-sphere-viewer') ||
+                  fullError.includes('photo-sphere-viewer.js') ||
+                  fullError.includes('three.cjs')))) {
                 console.error('PanoramaViewer: Error in initializeViewerWithImage (fallback):', error);
               }
             });
@@ -901,7 +907,7 @@ export function PanoramaViewer({
           }
         }
       };
-      
+
       // Start checking if primary image exists
       img.src = imageSrc;
     }
@@ -913,26 +919,26 @@ export function PanoramaViewer({
       if (isInitializingRef.current) {
         return;
       }
-      
+
       isMounted = false; // Mark as unmounted to prevent further operations
       isInitializingRef.current = false;
-      
+
       // Unregister from WebGL context manager
       const viewerId = viewerIdRef.current;
       webglContextManager.unregister(viewerId);
-      
+
       // Restore console methods
       console.error = originalConsoleError;
       console.warn = originalConsoleWarn;
       window.removeEventListener('unhandledrejection', unhandledRejectionHandler);
-      
+
       if (dimensionCheckTimeout) {
         clearTimeout(dimensionCheckTimeout);
       }
       if (viewerRef.current) {
         try {
           const viewer = viewerRef.current;
-          
+
           // Force dispose of Three.js renderer and WebGL context
           try {
             if (viewer.renderer) {
@@ -982,7 +988,7 @@ export function PanoramaViewer({
           } catch (disposeError) {
             // Ignore disposal errors
           }
-          
+
           // Check if viewer has a destroy method and if container still exists
           if (viewer && typeof viewer.destroy === 'function') {
             // Check if container still exists and is in the DOM
@@ -996,9 +1002,9 @@ export function PanoramaViewer({
                 }
               } catch (containerError: any) {
                 // Container may be in invalid state (e.g., WebGL context lost)
-                if (containerError?.message?.includes('classList') || 
-                    containerError?.message?.includes('Cannot read properties') ||
-                    containerError?.message?.includes('Context Lost')) {
+                if (containerError?.message?.includes('classList') ||
+                  containerError?.message?.includes('Cannot read properties') ||
+                  containerError?.message?.includes('Context Lost')) {
                   // Silently ignore - container is in invalid state
                 } else {
                   // Try destroy anyway if it's a different error
@@ -1015,10 +1021,10 @@ export function PanoramaViewer({
         } catch (error: any) {
           // Ignore errors during cleanup - container may already be removed
           // Check if it's specifically a classList error and ignore it
-          if (error?.message?.includes('classList') || 
-              error?.message?.includes('Cannot read properties') ||
-              error?.message?.includes('Context Lost') ||
-              error?.message?.includes('context lost')) {
+          if (error?.message?.includes('classList') ||
+            error?.message?.includes('Cannot read properties') ||
+            error?.message?.includes('Context Lost') ||
+            error?.message?.includes('context lost')) {
             // Silently ignore - WebGL context loss or DOM cleanup issues
           } else {
           }
@@ -1027,7 +1033,7 @@ export function PanoramaViewer({
       }
     };
   }, [imageSrc, isVisible, initialPitch, initialYaw]); // Depend on key props that affect viewer initialization
-  
+
   // Handle disableInteraction prop - disable pointer events when interaction is disabled
   useEffect(() => {
     if (containerRef.current) {
@@ -1038,25 +1044,25 @@ export function PanoramaViewer({
       }
     }
   }, [disableInteraction]);
-  
+
   // Handle external rotation updates (from 3D camera)
   useEffect(() => {
     // Validate that both values are defined and are valid numbers (not NaN)
-    if (!viewerRef.current || 
-        externalYaw === undefined || 
-        externalPitch === undefined ||
-        Number.isNaN(externalYaw) ||
-        Number.isNaN(externalPitch) ||
-        !Number.isFinite(externalYaw) ||
-        !Number.isFinite(externalPitch)) {
+    if (!viewerRef.current ||
+      externalYaw === undefined ||
+      externalPitch === undefined ||
+      Number.isNaN(externalYaw) ||
+      Number.isNaN(externalPitch) ||
+      !Number.isFinite(externalYaw) ||
+      !Number.isFinite(externalPitch)) {
       return;
     }
-    
+
     // Prevent updating if user is currently rotating the panorama
     if (isPanoramaRotatingRef.current) {
       return;
     }
-    
+
     try {
       // Convert from degrees to Photo Sphere Viewer coordinates
       // Photo Sphere Viewer uses:
@@ -1067,10 +1073,10 @@ export function PanoramaViewer({
       const longitude = ((externalYaw - 90) * Math.PI / 180);
       // Pitch: positive = up, negative = down, same as Photo Sphere Viewer
       const latitude = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, externalPitch * Math.PI / 180));
-      
+
       // Validate converted values are not NaN before passing to viewer
-      if (Number.isNaN(longitude) || Number.isNaN(latitude) || 
-          !Number.isFinite(longitude) || !Number.isFinite(latitude)) {
+      if (Number.isNaN(longitude) || Number.isNaN(latitude) ||
+        !Number.isFinite(longitude) || !Number.isFinite(latitude)) {
         console.warn('PanoramaViewer: Invalid rotation values, skipping update', {
           externalYaw,
           externalPitch,
@@ -1079,9 +1085,9 @@ export function PanoramaViewer({
         });
         return;
       }
-      
+
       const viewer = viewerRef.current;
-      
+
       // Photo Sphere Viewer 4.x API: try setPosition first (most reliable)
       // The viewer object should have this method since getPosition() works
       let updated = false;
@@ -1109,7 +1115,7 @@ export function PanoramaViewer({
             updated = true;
           }
         }
-        
+
         if (!updated) {
           // Log for debugging - only once to avoid spam
           if (!(viewer as any)._rotationWarningLogged) {
@@ -1119,9 +1125,9 @@ export function PanoramaViewer({
               longitude: longitude.toFixed(4),
               latitude: latitude.toFixed(4),
               hasGetPosition: typeof viewer.getPosition === 'function',
-              viewerKeys: Object.keys(viewer).filter(k => 
-                k.toLowerCase().includes('position') || 
-                k.toLowerCase().includes('rotate') || 
+              viewerKeys: Object.keys(viewer).filter(k =>
+                k.toLowerCase().includes('position') ||
+                k.toLowerCase().includes('rotate') ||
                 k.toLowerCase().includes('set') ||
                 k.toLowerCase().includes('longitude') ||
                 k.toLowerCase().includes('latitude')
