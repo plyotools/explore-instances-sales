@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { MultiSelect } from '@/components/ui/multi-select';
-import { Play, Search } from 'lucide-react';
+import { Play, Search, Lock, LogOut, Loader2 } from 'lucide-react';
 import { PanoramaViewer } from '@/app/components/panorama-viewer';
 
 const PLACEHOLDER_DATA_URI = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0idHJhbnNwYXJlbnQiLz48L3N2Zz4=';
@@ -471,6 +471,7 @@ export default function InstancesPage() {
   const [instances, setInstances] = useState<ShowcaseInstance[]>([]);
   const [filteredInstances, setFilteredInstances] = useState<ShowcaseInstance[]>([]);
   const [loading, setLoading] = useState(true);
+  const [authenticated, setAuthenticated] = useState<boolean | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
   const [typeFilter, setTypeFilter] = useState<string>('all');
@@ -481,6 +482,14 @@ export default function InstancesPage() {
   const basePath = process.env.NODE_ENV === 'production' ? '/explore-instances-sales' : '';
 
   useEffect(() => {
+    // Auth check
+    const isAuth = typeof window !== 'undefined' && window.localStorage.getItem('sales_showcase_auth') === 'true';
+    if (!isAuth) {
+      window.location.replace(basePath + '/login');
+      return;
+    }
+    setAuthenticated(true);
+
     if (typeof document !== 'undefined') {
       document.documentElement.classList.add('dark');
     }
@@ -587,10 +596,13 @@ export default function InstancesPage() {
       });
   }, [instances]);
 
-  if (loading) {
+  if (authenticated === null || loading) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
-        <div className="text-foreground">Loading...</div>
+      <div className="min-h-screen bg-[#0A082D] flex items-center justify-center">
+        <div className="text-white flex items-center gap-3">
+          <Loader2 className="h-5 w-5 animate-spin text-[#8027F4]" />
+          <span>Loading Showcase...</span>
+        </div>
       </div>
     );
   }
@@ -598,9 +610,23 @@ export default function InstancesPage() {
   return (
     <div className="min-h-screen w-full bg-background text-foreground">
       <div className="w-full px-6 py-8">
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold mb-2">Explore Instances</h1>
-          <p className="text-muted-foreground">Browse all available instances</p>
+        <div className="flex justify-between items-start mb-8">
+          <div>
+            <h1 className="text-4xl font-bold mb-2">Explore Instances</h1>
+            <p className="text-muted-foreground">Browse all available instances</p>
+          </div>
+          <Button 
+            variant="outline" 
+            size="sm" 
+            className="border-white/10 hover:bg-white/5 text-white/60"
+            onClick={() => {
+              window.localStorage.removeItem('sales_showcase_auth');
+              window.location.replace(basePath + '/login');
+            }}
+          >
+            <LogOut className="h-4 w-4 mr-2" />
+            Logout
+          </Button>
         </div>
 
         <div className="flex flex-wrap gap-4 mb-6 items-center">

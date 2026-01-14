@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
 
-export default function Home() {
-  redirect('/instances');
-}
+    export default function Home() {
+      redirect('/instances');
+    }
+    

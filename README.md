@@ -4,14 +4,14 @@ Minimal showcase version for sales demonstrations.
 
 ## Features
 
-- Browse all project instances
-- Search and filter by type, client, and features
-- Launch projects directly
-- Optimized for fast loading
+      - Browse all project instances
+        - Search and filter by type, client, and features
+          - Launch projects directly
+            - Optimized for fast loading
 
 ## Development
 
-```bash
+    ```bash
 npm install
 npm run dev
 ```
