@@ -1,0 +1,722 @@
+[
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0001_05300d0a49b3be968e16_LOD3.webp",
+    "texture": "render_0001_05300d0a49b3be968e16",
+    "fileName": "render_0001_05300d0a49b3be968e16_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.001.projectOverview",
+    "index": 1
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0002_f9098d99eebb891c3a28_LOD3.webp",
+    "texture": "render_0002_f9098d99eebb891c3a28",
+    "fileName": "render_0002_f9098d99eebb891c3a28_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.002.projectOverview",
+    "index": 2
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0003_531f37012d53854b188e_LOD3.webp",
+    "texture": "render_0003_531f37012d53854b188e",
+    "fileName": "render_0003_531f37012d53854b188e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.003.projectOverview",
+    "index": 3
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0004_c231d586f4cb911a2be9_LOD3.webp",
+    "texture": "render_0004_c231d586f4cb911a2be9",
+    "fileName": "render_0004_c231d586f4cb911a2be9_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.004.projectOverview",
+    "index": 4
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0005_11ea270c3d0f91819314_LOD3.webp",
+    "texture": "render_0005_11ea270c3d0f91819314",
+    "fileName": "render_0005_11ea270c3d0f91819314_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.005.projectOverview",
+    "index": 5
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0006_1e1ccbd246ac08044c37_LOD3.webp",
+    "texture": "render_0006_1e1ccbd246ac08044c37",
+    "fileName": "render_0006_1e1ccbd246ac08044c37_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.006.projectOverview",
+    "index": 6
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0007_3d8bdf899195f192c482_LOD3.webp",
+    "texture": "render_0007_3d8bdf899195f192c482",
+    "fileName": "render_0007_3d8bdf899195f192c482_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.007.projectOverview",
+    "index": 7
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0008_e4a5364372e398a86dc3_LOD3.webp",
+    "texture": "render_0008_e4a5364372e398a86dc3",
+    "fileName": "render_0008_e4a5364372e398a86dc3_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.008.projectOverview",
+    "index": 8
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0009_0a43f7777f02cb7d8316_LOD3.webp",
+    "texture": "render_0009_0a43f7777f02cb7d8316",
+    "fileName": "render_0009_0a43f7777f02cb7d8316_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.009.projectOverview",
+    "index": 9
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0010_b5a47c990c768f94dce3_LOD3.webp",
+    "texture": "render_0010_b5a47c990c768f94dce3",
+    "fileName": "render_0010_b5a47c990c768f94dce3_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.010.projectOverview",
+    "index": 10
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0011_6519e5d55097d7d75048_LOD3.webp",
+    "texture": "render_0011_6519e5d55097d7d75048",
+    "fileName": "render_0011_6519e5d55097d7d75048_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.011.projectOverview",
+    "index": 11
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0012_b908241f2e413c2be4d2_LOD3.webp",
+    "texture": "render_0012_b908241f2e413c2be4d2",
+    "fileName": "render_0012_b908241f2e413c2be4d2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.012.projectOverview",
+    "index": 12
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0013_f301c2b3ec32b2b793f7_LOD3.webp",
+    "texture": "render_0013_f301c2b3ec32b2b793f7",
+    "fileName": "render_0013_f301c2b3ec32b2b793f7_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.013.projectOverview",
+    "index": 13
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0014_9421476f657caa03c417_LOD3.webp",
+    "texture": "render_0014_9421476f657caa03c417",
+    "fileName": "render_0014_9421476f657caa03c417_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.014.projectOverview",
+    "index": 14
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0015_22f5c54b5ef7f936d165_LOD3.webp",
+    "texture": "render_0015_22f5c54b5ef7f936d165",
+    "fileName": "render_0015_22f5c54b5ef7f936d165_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.015.projectOverview",
+    "index": 15
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0016_f1978dbe5a11bebdab78_LOD3.webp",
+    "texture": "render_0016_f1978dbe5a11bebdab78",
+    "fileName": "render_0016_f1978dbe5a11bebdab78_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.016.projectOverview",
+    "index": 16
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0017_eb591207e2576f0c716c_LOD3.webp",
+    "texture": "render_0017_eb591207e2576f0c716c",
+    "fileName": "render_0017_eb591207e2576f0c716c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.017.projectOverview",
+    "index": 17
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0018_d101e6f6f07a3f9d67f3_LOD3.webp",
+    "texture": "render_0018_d101e6f6f07a3f9d67f3",
+    "fileName": "render_0018_d101e6f6f07a3f9d67f3_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.018.projectOverview",
+    "index": 18
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0019_d79ba73ea9cc68ab232f_LOD3.webp",
+    "texture": "render_0019_d79ba73ea9cc68ab232f",
+    "fileName": "render_0019_d79ba73ea9cc68ab232f_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.019.projectOverview",
+    "index": 19
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0020_2360c265bbb3ef1943dc_LOD3.webp",
+    "texture": "render_0020_2360c265bbb3ef1943dc",
+    "fileName": "render_0020_2360c265bbb3ef1943dc_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.020.projectOverview",
+    "index": 20
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0021_2827461249d0a640dab1_LOD3.webp",
+    "texture": "render_0021_2827461249d0a640dab1",
+    "fileName": "render_0021_2827461249d0a640dab1_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.021.projectOverview",
+    "index": 21
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0022_82f33ad9ecae653e6c52_LOD3.webp",
+    "texture": "render_0022_82f33ad9ecae653e6c52",
+    "fileName": "render_0022_82f33ad9ecae653e6c52_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.022.projectOverview",
+    "index": 22
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0023_446ffe36068349b6d81a_LOD3.webp",
+    "texture": "render_0023_446ffe36068349b6d81a",
+    "fileName": "render_0023_446ffe36068349b6d81a_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.023.projectOverview",
+    "index": 23
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0024_cf5ba6847f1933b0652c_LOD3.webp",
+    "texture": "render_0024_cf5ba6847f1933b0652c",
+    "fileName": "render_0024_cf5ba6847f1933b0652c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.024.projectOverview",
+    "index": 24
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0025_8ec6f71ea94092b08fc9_LOD3.webp",
+    "texture": "render_0025_8ec6f71ea94092b08fc9",
+    "fileName": "render_0025_8ec6f71ea94092b08fc9_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.025.projectOverview",
+    "index": 25
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0026_68062b1b184034130c6c_LOD3.webp",
+    "texture": "render_0026_68062b1b184034130c6c",
+    "fileName": "render_0026_68062b1b184034130c6c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.026.projectOverview",
+    "index": 26
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0027_1ba5a02288b5b3307207_LOD3.webp",
+    "texture": "render_0027_1ba5a02288b5b3307207",
+    "fileName": "render_0027_1ba5a02288b5b3307207_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.027.projectOverview",
+    "index": 27
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0028_d1ea67d3e852ddf4617a_LOD3.webp",
+    "texture": "render_0028_d1ea67d3e852ddf4617a",
+    "fileName": "render_0028_d1ea67d3e852ddf4617a_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.028.projectOverview",
+    "index": 28
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0029_e5d2408cc0181340efea_LOD3.webp",
+    "texture": "render_0029_e5d2408cc0181340efea",
+    "fileName": "render_0029_e5d2408cc0181340efea_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.029.projectOverview",
+    "index": 29
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0030_6ea6c392681f029a8baf_LOD3.webp",
+    "texture": "render_0030_6ea6c392681f029a8baf",
+    "fileName": "render_0030_6ea6c392681f029a8baf_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.030.projectOverview",
+    "index": 30
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0031_7006331ad5c3fa0edf3a_LOD3.webp",
+    "texture": "render_0031_7006331ad5c3fa0edf3a",
+    "fileName": "render_0031_7006331ad5c3fa0edf3a_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.031.projectOverview",
+    "index": 31
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0032_b38f3b45e66afc05ae1f_LOD3.webp",
+    "texture": "render_0032_b38f3b45e66afc05ae1f",
+    "fileName": "render_0032_b38f3b45e66afc05ae1f_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.032.projectOverview",
+    "index": 32
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0033_5f8e8903fa749fb8e560_LOD3.webp",
+    "texture": "render_0033_5f8e8903fa749fb8e560",
+    "fileName": "render_0033_5f8e8903fa749fb8e560_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.033.projectOverview",
+    "index": 33
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0034_d5000fa95104b123402d_LOD3.webp",
+    "texture": "render_0034_d5000fa95104b123402d",
+    "fileName": "render_0034_d5000fa95104b123402d_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.034.projectOverview",
+    "index": 34
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0035_2be01b30f8864d278ffc_LOD3.webp",
+    "texture": "render_0035_2be01b30f8864d278ffc",
+    "fileName": "render_0035_2be01b30f8864d278ffc_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.035.projectOverview",
+    "index": 35
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0036_aee5bb8b54042c9296ee_LOD3.webp",
+    "texture": "render_0036_aee5bb8b54042c9296ee",
+    "fileName": "render_0036_aee5bb8b54042c9296ee_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.036.projectOverview",
+    "index": 36
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0037_32b53a211c6ab13daf2d_LOD3.webp",
+    "texture": "render_0037_32b53a211c6ab13daf2d",
+    "fileName": "render_0037_32b53a211c6ab13daf2d_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.037.projectOverview",
+    "index": 37
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0038_3bafcc46abb2968bb7b3_LOD3.webp",
+    "texture": "render_0038_3bafcc46abb2968bb7b3",
+    "fileName": "render_0038_3bafcc46abb2968bb7b3_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.038.projectOverview",
+    "index": 38
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0039_4560efac99dc2330ffb8_LOD3.webp",
+    "texture": "render_0039_4560efac99dc2330ffb8",
+    "fileName": "render_0039_4560efac99dc2330ffb8_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.039.projectOverview",
+    "index": 39
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0040_88cf4e2488731f76a8bf_LOD3.webp",
+    "texture": "render_0040_88cf4e2488731f76a8bf",
+    "fileName": "render_0040_88cf4e2488731f76a8bf_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.040.projectOverview",
+    "index": 40
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0041_9e690466b5631966ac8c_LOD3.webp",
+    "texture": "render_0041_9e690466b5631966ac8c",
+    "fileName": "render_0041_9e690466b5631966ac8c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.041.projectOverview",
+    "index": 41
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0042_200f0fe7e6c3f3261c57_LOD3.webp",
+    "texture": "render_0042_200f0fe7e6c3f3261c57",
+    "fileName": "render_0042_200f0fe7e6c3f3261c57_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.042.projectOverview",
+    "index": 42
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0043_c557b3ef32c539234d3e_LOD3.webp",
+    "texture": "render_0043_c557b3ef32c539234d3e",
+    "fileName": "render_0043_c557b3ef32c539234d3e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.043.projectOverview",
+    "index": 43
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0044_85bef8982d2b11cbb144_LOD3.webp",
+    "texture": "render_0044_85bef8982d2b11cbb144",
+    "fileName": "render_0044_85bef8982d2b11cbb144_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.044.projectOverview",
+    "index": 44
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0045_97380cfc049c78e9dc4a_LOD3.webp",
+    "texture": "render_0045_97380cfc049c78e9dc4a",
+    "fileName": "render_0045_97380cfc049c78e9dc4a_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.045.projectOverview",
+    "index": 45
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0046_892f16eadb000d1de421_LOD3.webp",
+    "texture": "render_0046_892f16eadb000d1de421",
+    "fileName": "render_0046_892f16eadb000d1de421_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.046.projectOverview",
+    "index": 46
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0047_c66c5f66dbb530a6ae96_LOD3.webp",
+    "texture": "render_0047_c66c5f66dbb530a6ae96",
+    "fileName": "render_0047_c66c5f66dbb530a6ae96_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.047.projectOverview",
+    "index": 47
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0048_d7af06eac0fef0b74071_LOD3.webp",
+    "texture": "render_0048_d7af06eac0fef0b74071",
+    "fileName": "render_0048_d7af06eac0fef0b74071_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.048.projectOverview",
+    "index": 48
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0049_f14be338c65f42654929_LOD3.webp",
+    "texture": "render_0049_f14be338c65f42654929",
+    "fileName": "render_0049_f14be338c65f42654929_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.049.projectOverview",
+    "index": 49
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0050_2cd04918fd3f2b12692c_LOD3.webp",
+    "texture": "render_0050_2cd04918fd3f2b12692c",
+    "fileName": "render_0050_2cd04918fd3f2b12692c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.050.projectOverview",
+    "index": 50
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0051_11c0bd70bda2a10382f6_LOD3.webp",
+    "texture": "render_0051_11c0bd70bda2a10382f6",
+    "fileName": "render_0051_11c0bd70bda2a10382f6_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.051.projectOverview",
+    "index": 51
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0052_ba8a4463909fbeafa466_LOD3.webp",
+    "texture": "render_0052_ba8a4463909fbeafa466",
+    "fileName": "render_0052_ba8a4463909fbeafa466_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.052.projectOverview",
+    "index": 52
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0053_ce59369f47d482bbccb3_LOD3.webp",
+    "texture": "render_0053_ce59369f47d482bbccb3",
+    "fileName": "render_0053_ce59369f47d482bbccb3_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.053.projectOverview",
+    "index": 53
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0054_32fedf7b0c10c4d1ff26_LOD3.webp",
+    "texture": "render_0054_32fedf7b0c10c4d1ff26",
+    "fileName": "render_0054_32fedf7b0c10c4d1ff26_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.054.projectOverview",
+    "index": 54
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0055_3eb58ad8a6665b5ff2d1_LOD3.webp",
+    "texture": "render_0055_3eb58ad8a6665b5ff2d1",
+    "fileName": "render_0055_3eb58ad8a6665b5ff2d1_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.055.projectOverview",
+    "index": 55
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0056_f584d1e42a39f354f1d5_LOD3.webp",
+    "texture": "render_0056_f584d1e42a39f354f1d5",
+    "fileName": "render_0056_f584d1e42a39f354f1d5_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.056.projectOverview",
+    "index": 56
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0057_c9c80d86c86582f489c8_LOD3.webp",
+    "texture": "render_0057_c9c80d86c86582f489c8",
+    "fileName": "render_0057_c9c80d86c86582f489c8_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.057.projectOverview",
+    "index": 57
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0058_59ad87d67c5e828e498b_LOD3.webp",
+    "texture": "render_0058_59ad87d67c5e828e498b",
+    "fileName": "render_0058_59ad87d67c5e828e498b_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.058.projectOverview",
+    "index": 58
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0059_1ea65ee4a9334f84cc6c_LOD3.webp",
+    "texture": "render_0059_1ea65ee4a9334f84cc6c",
+    "fileName": "render_0059_1ea65ee4a9334f84cc6c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.059.projectOverview",
+    "index": 59
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0060_e931f40c6149df416552_LOD3.webp",
+    "texture": "render_0060_e931f40c6149df416552",
+    "fileName": "render_0060_e931f40c6149df416552_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.060.projectOverview",
+    "index": 60
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0061_76452df3b06cccea6855_LOD3.webp",
+    "texture": "render_0061_76452df3b06cccea6855",
+    "fileName": "render_0061_76452df3b06cccea6855_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.061.projectOverview",
+    "index": 61
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0062_43228862618fb28e54d0_LOD3.webp",
+    "texture": "render_0062_43228862618fb28e54d0",
+    "fileName": "render_0062_43228862618fb28e54d0_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.062.projectOverview",
+    "index": 62
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0063_d79f2c678317c684d941_LOD3.webp",
+    "texture": "render_0063_d79f2c678317c684d941",
+    "fileName": "render_0063_d79f2c678317c684d941_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.063.projectOverview",
+    "index": 63
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0064_619df7c66c077c53356d_LOD3.webp",
+    "texture": "render_0064_619df7c66c077c53356d",
+    "fileName": "render_0064_619df7c66c077c53356d_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.064.projectOverview",
+    "index": 64
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0065_a39ae6e42c29caa945a8_LOD3.webp",
+    "texture": "render_0065_a39ae6e42c29caa945a8",
+    "fileName": "render_0065_a39ae6e42c29caa945a8_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.065.projectOverview",
+    "index": 65
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0066_3456dfb05458b299059c_LOD3.webp",
+    "texture": "render_0066_3456dfb05458b299059c",
+    "fileName": "render_0066_3456dfb05458b299059c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.066.projectOverview",
+    "index": 66
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0067_fc499db1fa96e48db4a2_LOD3.webp",
+    "texture": "render_0067_fc499db1fa96e48db4a2",
+    "fileName": "render_0067_fc499db1fa96e48db4a2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.067.projectOverview",
+    "index": 67
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0068_71e132e5a67f2fb32d18_LOD3.webp",
+    "texture": "render_0068_71e132e5a67f2fb32d18",
+    "fileName": "render_0068_71e132e5a67f2fb32d18_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.068.projectOverview",
+    "index": 68
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0069_13d9787ef92646e1c47a_LOD3.webp",
+    "texture": "render_0069_13d9787ef92646e1c47a",
+    "fileName": "render_0069_13d9787ef92646e1c47a_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.069.projectOverview",
+    "index": 69
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0070_4002cb92d8b1807f6f0c_LOD3.webp",
+    "texture": "render_0070_4002cb92d8b1807f6f0c",
+    "fileName": "render_0070_4002cb92d8b1807f6f0c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.070.projectOverview",
+    "index": 70
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0071_f48e31c2fd10e1a2b797_LOD3.webp",
+    "texture": "render_0071_f48e31c2fd10e1a2b797",
+    "fileName": "render_0071_f48e31c2fd10e1a2b797_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.071.projectOverview",
+    "index": 71
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0072_4a40a4b9fd312b92cfbe_LOD3.webp",
+    "texture": "render_0072_4a40a4b9fd312b92cfbe",
+    "fileName": "render_0072_4a40a4b9fd312b92cfbe_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.072.projectOverview",
+    "index": 72
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0073_445825d815026b7dbc2e_LOD3.webp",
+    "texture": "render_0073_445825d815026b7dbc2e",
+    "fileName": "render_0073_445825d815026b7dbc2e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.073.projectOverview",
+    "index": 73
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0074_772e663677ef3cc707d7_LOD3.webp",
+    "texture": "render_0074_772e663677ef3cc707d7",
+    "fileName": "render_0074_772e663677ef3cc707d7_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.074.projectOverview",
+    "index": 74
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0075_fb84b4a9b61e4fe3a843_LOD3.webp",
+    "texture": "render_0075_fb84b4a9b61e4fe3a843",
+    "fileName": "render_0075_fb84b4a9b61e4fe3a843_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.075.projectOverview",
+    "index": 75
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0076_0f25fe868d212739b9d4_LOD3.webp",
+    "texture": "render_0076_0f25fe868d212739b9d4",
+    "fileName": "render_0076_0f25fe868d212739b9d4_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.076.projectOverview",
+    "index": 76
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0077_c85372a187055d763b12_LOD3.webp",
+    "texture": "render_0077_c85372a187055d763b12",
+    "fileName": "render_0077_c85372a187055d763b12_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.077.projectOverview",
+    "index": 77
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0078_275ae9d731b0e5446fa1_LOD3.webp",
+    "texture": "render_0078_275ae9d731b0e5446fa1",
+    "fileName": "render_0078_275ae9d731b0e5446fa1_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.078.projectOverview",
+    "index": 78
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0079_c9ce18d1dd7de51bbb47_LOD3.webp",
+    "texture": "render_0079_c9ce18d1dd7de51bbb47",
+    "fileName": "render_0079_c9ce18d1dd7de51bbb47_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.079.projectOverview",
+    "index": 79
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0080_76f32e1b772aff85f61a_LOD3.webp",
+    "texture": "render_0080_76f32e1b772aff85f61a",
+    "fileName": "render_0080_76f32e1b772aff85f61a_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.080.projectOverview",
+    "index": 80
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0081_b5ddb5b3a917edaa24e4_LOD3.webp",
+    "texture": "render_0081_b5ddb5b3a917edaa24e4",
+    "fileName": "render_0081_b5ddb5b3a917edaa24e4_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.081.projectOverview",
+    "index": 81
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0082_c4ea2215bdc223659543_LOD3.webp",
+    "texture": "render_0082_c4ea2215bdc223659543",
+    "fileName": "render_0082_c4ea2215bdc223659543_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.082.projectOverview",
+    "index": 82
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0083_9d2a7bfe830b04de5d7e_LOD3.webp",
+    "texture": "render_0083_9d2a7bfe830b04de5d7e",
+    "fileName": "render_0083_9d2a7bfe830b04de5d7e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.083.projectOverview",
+    "index": 83
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0084_89a4ca7c3a3695c56f28_LOD3.webp",
+    "texture": "render_0084_89a4ca7c3a3695c56f28",
+    "fileName": "render_0084_89a4ca7c3a3695c56f28_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.084.projectOverview",
+    "index": 84
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0085_056b4f8ef8e2d6035c48_LOD3.webp",
+    "texture": "render_0085_056b4f8ef8e2d6035c48",
+    "fileName": "render_0085_056b4f8ef8e2d6035c48_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.085.projectOverview",
+    "index": 85
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0086_69df4ec991e94c7cd5dc_LOD3.webp",
+    "texture": "render_0086_69df4ec991e94c7cd5dc",
+    "fileName": "render_0086_69df4ec991e94c7cd5dc_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.086.projectOverview",
+    "index": 86
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0087_a4a05461f67de512a4ed_LOD3.webp",
+    "texture": "render_0087_a4a05461f67de512a4ed",
+    "fileName": "render_0087_a4a05461f67de512a4ed_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.087.projectOverview",
+    "index": 87
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0088_daff8dee0e794eb43da5_LOD3.webp",
+    "texture": "render_0088_daff8dee0e794eb43da5",
+    "fileName": "render_0088_daff8dee0e794eb43da5_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.088.projectOverview",
+    "index": 88
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0089_ba6829422d3a1ddb11ec_LOD3.webp",
+    "texture": "render_0089_ba6829422d3a1ddb11ec",
+    "fileName": "render_0089_ba6829422d3a1ddb11ec_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.089.projectOverview",
+    "index": 89
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/637d1cda-7ef6-41ff-ac2c-756046b2d604/assets/render_0090_0f38061a91431969653a_LOD3.webp",
+    "texture": "render_0090_0f38061a91431969653a",
+    "fileName": "render_0090_0f38061a91431969653a_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Prosjekt oversikt.projectOverview",
+    "index": 90
+  }
+]

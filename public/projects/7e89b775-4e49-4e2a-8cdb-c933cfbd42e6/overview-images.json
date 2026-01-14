@@ -1,0 +1,722 @@
+[
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0001_5fbfce439dbd2c69cff4_LOD3.webp",
+    "texture": "render_0001_5fbfce439dbd2c69cff4",
+    "fileName": "render_0001_5fbfce439dbd2c69cff4_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0000.projOverview",
+    "index": 1
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0002_1c421247477308412c2e_LOD3.webp",
+    "texture": "render_0002_1c421247477308412c2e",
+    "fileName": "render_0002_1c421247477308412c2e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0001.projOverview",
+    "index": 2
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0003_7af9ad85015955d6b26b_LOD3.webp",
+    "texture": "render_0003_7af9ad85015955d6b26b",
+    "fileName": "render_0003_7af9ad85015955d6b26b_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0002.projOverview",
+    "index": 3
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0004_24ba4dfa2a60e0247989_LOD3.webp",
+    "texture": "render_0004_24ba4dfa2a60e0247989",
+    "fileName": "render_0004_24ba4dfa2a60e0247989_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0003.projOverview",
+    "index": 4
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0005_c66b21bed93dc6220c90_LOD3.webp",
+    "texture": "render_0005_c66b21bed93dc6220c90",
+    "fileName": "render_0005_c66b21bed93dc6220c90_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0004.projOverview",
+    "index": 5
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0006_a2ff60c2706426497513_LOD3.webp",
+    "texture": "render_0006_a2ff60c2706426497513",
+    "fileName": "render_0006_a2ff60c2706426497513_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0005.projOverview",
+    "index": 6
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0007_8e3cedfa5cd739a8d734_LOD3.webp",
+    "texture": "render_0007_8e3cedfa5cd739a8d734",
+    "fileName": "render_0007_8e3cedfa5cd739a8d734_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0006.projOverview",
+    "index": 7
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0008_954a79ecce99f940c6b0_LOD3.webp",
+    "texture": "render_0008_954a79ecce99f940c6b0",
+    "fileName": "render_0008_954a79ecce99f940c6b0_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0007.projOverview",
+    "index": 8
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0009_ba34b1565e1c707d3051_LOD3.webp",
+    "texture": "render_0009_ba34b1565e1c707d3051",
+    "fileName": "render_0009_ba34b1565e1c707d3051_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0008.projOverview",
+    "index": 9
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0010_5fce4704cb2799425168_LOD3.webp",
+    "texture": "render_0010_5fce4704cb2799425168",
+    "fileName": "render_0010_5fce4704cb2799425168_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0009.projOverview",
+    "index": 10
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0011_54d1e4e9482b986d1f78_LOD3.webp",
+    "texture": "render_0011_54d1e4e9482b986d1f78",
+    "fileName": "render_0011_54d1e4e9482b986d1f78_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0010.projOverview",
+    "index": 11
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0012_7cacefcd6fa092675e81_LOD3.webp",
+    "texture": "render_0012_7cacefcd6fa092675e81",
+    "fileName": "render_0012_7cacefcd6fa092675e81_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0011.projOverview",
+    "index": 12
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0013_46e97a8ecc53bdd8fe66_LOD3.webp",
+    "texture": "render_0013_46e97a8ecc53bdd8fe66",
+    "fileName": "render_0013_46e97a8ecc53bdd8fe66_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0012.projOverview",
+    "index": 13
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0014_97f001456c32c19a3094_LOD3.webp",
+    "texture": "render_0014_97f001456c32c19a3094",
+    "fileName": "render_0014_97f001456c32c19a3094_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0013.projOverview",
+    "index": 14
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0015_46f4d9580ff254759fc2_LOD3.webp",
+    "texture": "render_0015_46f4d9580ff254759fc2",
+    "fileName": "render_0015_46f4d9580ff254759fc2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0014.projOverview",
+    "index": 15
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0016_cae6ea19b1b57ccd0bc5_LOD3.webp",
+    "texture": "render_0016_cae6ea19b1b57ccd0bc5",
+    "fileName": "render_0016_cae6ea19b1b57ccd0bc5_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0015.projOverview",
+    "index": 16
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0017_7286bc61bc963ecbdc96_LOD3.webp",
+    "texture": "render_0017_7286bc61bc963ecbdc96",
+    "fileName": "render_0017_7286bc61bc963ecbdc96_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0016.projOverview",
+    "index": 17
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0018_790303c60c2f5c2525d9_LOD3.webp",
+    "texture": "render_0018_790303c60c2f5c2525d9",
+    "fileName": "render_0018_790303c60c2f5c2525d9_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0017.projOverview",
+    "index": 18
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0019_0e83f5d26b7a89d73bbe_LOD3.webp",
+    "texture": "render_0019_0e83f5d26b7a89d73bbe",
+    "fileName": "render_0019_0e83f5d26b7a89d73bbe_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0018.projOverview",
+    "index": 19
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0020_4746072827d13d3425d9_LOD3.webp",
+    "texture": "render_0020_4746072827d13d3425d9",
+    "fileName": "render_0020_4746072827d13d3425d9_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0019.projOverview",
+    "index": 20
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0021_680ab4a840f7decaf176_LOD3.webp",
+    "texture": "render_0021_680ab4a840f7decaf176",
+    "fileName": "render_0021_680ab4a840f7decaf176_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0020.projOverview",
+    "index": 21
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0022_b470307f9805f5041c7d_LOD3.webp",
+    "texture": "render_0022_b470307f9805f5041c7d",
+    "fileName": "render_0022_b470307f9805f5041c7d_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0021.projOverview",
+    "index": 22
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0023_5e9b2f373d98ce5a7156_LOD3.webp",
+    "texture": "render_0023_5e9b2f373d98ce5a7156",
+    "fileName": "render_0023_5e9b2f373d98ce5a7156_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0022.projOverview",
+    "index": 23
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0024_8701647b5365119f553e_LOD3.webp",
+    "texture": "render_0024_8701647b5365119f553e",
+    "fileName": "render_0024_8701647b5365119f553e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0023.projOverview",
+    "index": 24
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0025_dac841afaa93ce7cefab_LOD3.webp",
+    "texture": "render_0025_dac841afaa93ce7cefab",
+    "fileName": "render_0025_dac841afaa93ce7cefab_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0024.projOverview",
+    "index": 25
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0026_18dc00568fe68183fac8_LOD3.webp",
+    "texture": "render_0026_18dc00568fe68183fac8",
+    "fileName": "render_0026_18dc00568fe68183fac8_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0025.projOverview",
+    "index": 26
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0027_1a5897fcbf2fd7cac111_LOD3.webp",
+    "texture": "render_0027_1a5897fcbf2fd7cac111",
+    "fileName": "render_0027_1a5897fcbf2fd7cac111_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0026.projOverview",
+    "index": 27
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0028_67be52a164c476975bb3_LOD3.webp",
+    "texture": "render_0028_67be52a164c476975bb3",
+    "fileName": "render_0028_67be52a164c476975bb3_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0027.projOverview",
+    "index": 28
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0029_27cf44bc6ebdf59107b1_LOD3.webp",
+    "texture": "render_0029_27cf44bc6ebdf59107b1",
+    "fileName": "render_0029_27cf44bc6ebdf59107b1_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0028.projOverview",
+    "index": 29
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0030_22abbc3c457d0b9c713f_LOD3.webp",
+    "texture": "render_0030_22abbc3c457d0b9c713f",
+    "fileName": "render_0030_22abbc3c457d0b9c713f_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0029.projOverview",
+    "index": 30
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0031_8e9579644c093d599b81_LOD3.webp",
+    "texture": "render_0031_8e9579644c093d599b81",
+    "fileName": "render_0031_8e9579644c093d599b81_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0030.projOverview",
+    "index": 31
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0032_762dfbb39deafe779bc2_LOD3.webp",
+    "texture": "render_0032_762dfbb39deafe779bc2",
+    "fileName": "render_0032_762dfbb39deafe779bc2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0031.projOverview",
+    "index": 32
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0033_4dfcae9a0195facdb168_LOD3.webp",
+    "texture": "render_0033_4dfcae9a0195facdb168",
+    "fileName": "render_0033_4dfcae9a0195facdb168_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0032.projOverview",
+    "index": 33
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0034_2bd11461cb7cd4fb3c0b_LOD3.webp",
+    "texture": "render_0034_2bd11461cb7cd4fb3c0b",
+    "fileName": "render_0034_2bd11461cb7cd4fb3c0b_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0033.projOverview",
+    "index": 34
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0035_5e767c5ccd7cf4c221a2_LOD3.webp",
+    "texture": "render_0035_5e767c5ccd7cf4c221a2",
+    "fileName": "render_0035_5e767c5ccd7cf4c221a2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0034.projOverview",
+    "index": 35
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0036_a4fb2c6bde83e7004dfe_LOD3.webp",
+    "texture": "render_0036_a4fb2c6bde83e7004dfe",
+    "fileName": "render_0036_a4fb2c6bde83e7004dfe_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0035.projOverview",
+    "index": 36
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0037_a932a609efd61431e3e8_LOD3.webp",
+    "texture": "render_0037_a932a609efd61431e3e8",
+    "fileName": "render_0037_a932a609efd61431e3e8_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0036.projOverview",
+    "index": 37
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0038_99605ca566faff5668f1_LOD3.webp",
+    "texture": "render_0038_99605ca566faff5668f1",
+    "fileName": "render_0038_99605ca566faff5668f1_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0037.projOverview",
+    "index": 38
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0039_57a05b97955aa65e7e0c_LOD3.webp",
+    "texture": "render_0039_57a05b97955aa65e7e0c",
+    "fileName": "render_0039_57a05b97955aa65e7e0c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0038.projOverview",
+    "index": 39
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0040_b4900587743f77deadf8_LOD3.webp",
+    "texture": "render_0040_b4900587743f77deadf8",
+    "fileName": "render_0040_b4900587743f77deadf8_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0039.projOverview",
+    "index": 40
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0041_588661bd5542c37021b0_LOD3.webp",
+    "texture": "render_0041_588661bd5542c37021b0",
+    "fileName": "render_0041_588661bd5542c37021b0_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0040.projOverview",
+    "index": 41
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0042_a6d26ce6717a0c363b23_LOD3.webp",
+    "texture": "render_0042_a6d26ce6717a0c363b23",
+    "fileName": "render_0042_a6d26ce6717a0c363b23_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0041.projOverview",
+    "index": 42
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0043_e68c952325517394263f_LOD3.webp",
+    "texture": "render_0043_e68c952325517394263f",
+    "fileName": "render_0043_e68c952325517394263f_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0042.projOverview",
+    "index": 43
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0044_525dae2dfa52c7c48a5c_LOD3.webp",
+    "texture": "render_0044_525dae2dfa52c7c48a5c",
+    "fileName": "render_0044_525dae2dfa52c7c48a5c_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0043.projOverview",
+    "index": 44
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0045_45ee60fa450899601d31_LOD3.webp",
+    "texture": "render_0045_45ee60fa450899601d31",
+    "fileName": "render_0045_45ee60fa450899601d31_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0044.projOverview",
+    "index": 45
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0046_5a562a4737826323cf70_LOD3.webp",
+    "texture": "render_0046_5a562a4737826323cf70",
+    "fileName": "render_0046_5a562a4737826323cf70_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0045.projOverview",
+    "index": 46
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0047_9d545595d5d1f072274f_LOD3.webp",
+    "texture": "render_0047_9d545595d5d1f072274f",
+    "fileName": "render_0047_9d545595d5d1f072274f_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0046.projOverview",
+    "index": 47
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0048_a3c17a97a2692f4d63fd_LOD3.webp",
+    "texture": "render_0048_a3c17a97a2692f4d63fd",
+    "fileName": "render_0048_a3c17a97a2692f4d63fd_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0047.projOverview",
+    "index": 48
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0049_26b1c81fe1efad3af4bb_LOD3.webp",
+    "texture": "render_0049_26b1c81fe1efad3af4bb",
+    "fileName": "render_0049_26b1c81fe1efad3af4bb_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0048.projOverview",
+    "index": 49
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0050_b6a09ea4e99aca6f6ed2_LOD3.webp",
+    "texture": "render_0050_b6a09ea4e99aca6f6ed2",
+    "fileName": "render_0050_b6a09ea4e99aca6f6ed2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0049.projOverview",
+    "index": 50
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0051_dd9d8aff3b47c7344935_LOD3.webp",
+    "texture": "render_0051_dd9d8aff3b47c7344935",
+    "fileName": "render_0051_dd9d8aff3b47c7344935_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0050.projOverview",
+    "index": 51
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0052_b332cb2c92047a95ef70_LOD3.webp",
+    "texture": "render_0052_b332cb2c92047a95ef70",
+    "fileName": "render_0052_b332cb2c92047a95ef70_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0051.projOverview",
+    "index": 52
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0053_05ec7a57e4af5d0970da_LOD3.webp",
+    "texture": "render_0053_05ec7a57e4af5d0970da",
+    "fileName": "render_0053_05ec7a57e4af5d0970da_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0052.projOverview",
+    "index": 53
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0054_5e791a232ab326650c4d_LOD3.webp",
+    "texture": "render_0054_5e791a232ab326650c4d",
+    "fileName": "render_0054_5e791a232ab326650c4d_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0053.projOverview",
+    "index": 54
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0055_64a7eb8c3e63cd786988_LOD3.webp",
+    "texture": "render_0055_64a7eb8c3e63cd786988",
+    "fileName": "render_0055_64a7eb8c3e63cd786988_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0054.projOverview",
+    "index": 55
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0056_671589f8e2e7e893d66d_LOD3.webp",
+    "texture": "render_0056_671589f8e2e7e893d66d",
+    "fileName": "render_0056_671589f8e2e7e893d66d_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0055.projOverview",
+    "index": 56
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0057_9614178e10e8783da572_LOD3.webp",
+    "texture": "render_0057_9614178e10e8783da572",
+    "fileName": "render_0057_9614178e10e8783da572_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0056.projOverview",
+    "index": 57
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0058_1b642d04595b2b5aaf3e_LOD3.webp",
+    "texture": "render_0058_1b642d04595b2b5aaf3e",
+    "fileName": "render_0058_1b642d04595b2b5aaf3e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0057.projOverview",
+    "index": 58
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0059_340d6bf1db7423060fb9_LOD3.webp",
+    "texture": "render_0059_340d6bf1db7423060fb9",
+    "fileName": "render_0059_340d6bf1db7423060fb9_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0058.projOverview",
+    "index": 59
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0060_e475031fde7d18318252_LOD3.webp",
+    "texture": "render_0060_e475031fde7d18318252",
+    "fileName": "render_0060_e475031fde7d18318252_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0059.projOverview",
+    "index": 60
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0061_695c51a2ed7a8256a405_LOD3.webp",
+    "texture": "render_0061_695c51a2ed7a8256a405",
+    "fileName": "render_0061_695c51a2ed7a8256a405_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0060.projOverview",
+    "index": 61
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0062_c9dbcdb38989c4fb1916_LOD3.webp",
+    "texture": "render_0062_c9dbcdb38989c4fb1916",
+    "fileName": "render_0062_c9dbcdb38989c4fb1916_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0061.projOverview",
+    "index": 62
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0063_6e3a8f2b3c638c66f763_LOD3.webp",
+    "texture": "render_0063_6e3a8f2b3c638c66f763",
+    "fileName": "render_0063_6e3a8f2b3c638c66f763_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0062.projOverview",
+    "index": 63
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0064_fb90f8379ce0217bb7c9_LOD3.webp",
+    "texture": "render_0064_fb90f8379ce0217bb7c9",
+    "fileName": "render_0064_fb90f8379ce0217bb7c9_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0063.projOverview",
+    "index": 64
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0065_e52a6595f1e573998969_LOD3.webp",
+    "texture": "render_0065_e52a6595f1e573998969",
+    "fileName": "render_0065_e52a6595f1e573998969_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0064.projOverview",
+    "index": 65
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0066_b6071635c7a6fc00a678_LOD3.webp",
+    "texture": "render_0066_b6071635c7a6fc00a678",
+    "fileName": "render_0066_b6071635c7a6fc00a678_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0065.projOverview",
+    "index": 66
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0067_372730aa0dd03a1f53c2_LOD3.webp",
+    "texture": "render_0067_372730aa0dd03a1f53c2",
+    "fileName": "render_0067_372730aa0dd03a1f53c2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0066.projOverview",
+    "index": 67
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0068_f5d63b0a76669129d6aa_LOD3.webp",
+    "texture": "render_0068_f5d63b0a76669129d6aa",
+    "fileName": "render_0068_f5d63b0a76669129d6aa_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0067.projOverview",
+    "index": 68
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0069_a60f0f178bbaa74c0195_LOD3.webp",
+    "texture": "render_0069_a60f0f178bbaa74c0195",
+    "fileName": "render_0069_a60f0f178bbaa74c0195_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0068.projOverview",
+    "index": 69
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0070_35a804b62e4c7e4064c5_LOD3.webp",
+    "texture": "render_0070_35a804b62e4c7e4064c5",
+    "fileName": "render_0070_35a804b62e4c7e4064c5_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0069.projOverview",
+    "index": 70
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0071_65ac542774a12b70f8e9_LOD3.webp",
+    "texture": "render_0071_65ac542774a12b70f8e9",
+    "fileName": "render_0071_65ac542774a12b70f8e9_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0070.projOverview",
+    "index": 71
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0072_00b1e696ae3aaae68ec2_LOD3.webp",
+    "texture": "render_0072_00b1e696ae3aaae68ec2",
+    "fileName": "render_0072_00b1e696ae3aaae68ec2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0071.projOverview",
+    "index": 72
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0073_caf21ca9df0ae8d7e302_LOD3.webp",
+    "texture": "render_0073_caf21ca9df0ae8d7e302",
+    "fileName": "render_0073_caf21ca9df0ae8d7e302_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0072.projOverview",
+    "index": 73
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0074_3e36b4335957ee6d7de5_LOD3.webp",
+    "texture": "render_0074_3e36b4335957ee6d7de5",
+    "fileName": "render_0074_3e36b4335957ee6d7de5_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0073.projOverview",
+    "index": 74
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0075_4e80ebc05eb3d2ee8bf5_LOD3.webp",
+    "texture": "render_0075_4e80ebc05eb3d2ee8bf5",
+    "fileName": "render_0075_4e80ebc05eb3d2ee8bf5_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0074.projOverview",
+    "index": 75
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0076_2c76188862159344a317_LOD3.webp",
+    "texture": "render_0076_2c76188862159344a317",
+    "fileName": "render_0076_2c76188862159344a317_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0075.projOverview",
+    "index": 76
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0077_2c68f49433aabd0e16ce_LOD3.webp",
+    "texture": "render_0077_2c68f49433aabd0e16ce",
+    "fileName": "render_0077_2c68f49433aabd0e16ce_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0076.projOverview",
+    "index": 77
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0078_428fc586fb3a7215e2ec_LOD3.webp",
+    "texture": "render_0078_428fc586fb3a7215e2ec",
+    "fileName": "render_0078_428fc586fb3a7215e2ec_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0077.projOverview",
+    "index": 78
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0079_a94f9f72f45926396a80_LOD3.webp",
+    "texture": "render_0079_a94f9f72f45926396a80",
+    "fileName": "render_0079_a94f9f72f45926396a80_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0078.projOverview",
+    "index": 79
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0080_46244303dc11b186b633_LOD3.webp",
+    "texture": "render_0080_46244303dc11b186b633",
+    "fileName": "render_0080_46244303dc11b186b633_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0079.projOverview",
+    "index": 80
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0081_b21603183d4f79881e1f_LOD3.webp",
+    "texture": "render_0081_b21603183d4f79881e1f",
+    "fileName": "render_0081_b21603183d4f79881e1f_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0080.projOverview",
+    "index": 81
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0082_d0a510a9e6bc02cdeb2e_LOD3.webp",
+    "texture": "render_0082_d0a510a9e6bc02cdeb2e",
+    "fileName": "render_0082_d0a510a9e6bc02cdeb2e_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0081.projOverview",
+    "index": 82
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0083_9651ff4252f135a66755_LOD3.webp",
+    "texture": "render_0083_9651ff4252f135a66755",
+    "fileName": "render_0083_9651ff4252f135a66755_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0082.projOverview",
+    "index": 83
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0084_452e9b36f6d53b9d9f1b_LOD3.webp",
+    "texture": "render_0084_452e9b36f6d53b9d9f1b",
+    "fileName": "render_0084_452e9b36f6d53b9d9f1b_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0083.projOverview",
+    "index": 84
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0085_0f2d83e5e6e7bdb429c8_LOD3.webp",
+    "texture": "render_0085_0f2d83e5e6e7bdb429c8",
+    "fileName": "render_0085_0f2d83e5e6e7bdb429c8_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0084.projOverview",
+    "index": 85
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0086_de203c9e68bf9ba4c6c0_LOD3.webp",
+    "texture": "render_0086_de203c9e68bf9ba4c6c0",
+    "fileName": "render_0086_de203c9e68bf9ba4c6c0_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0085.projOverview",
+    "index": 86
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0087_8c0f2b19984a67c10dd2_LOD3.webp",
+    "texture": "render_0087_8c0f2b19984a67c10dd2",
+    "fileName": "render_0087_8c0f2b19984a67c10dd2_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0086.projOverview",
+    "index": 87
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0088_1cec7eaad59bf9875022_LOD3.webp",
+    "texture": "render_0088_1cec7eaad59bf9875022",
+    "fileName": "render_0088_1cec7eaad59bf9875022_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0087.projOverview",
+    "index": 88
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0089_692f75e13756f2ead307_LOD3.webp",
+    "texture": "render_0089_692f75e13756f2ead307",
+    "fileName": "render_0089_692f75e13756f2ead307_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0088.projOverview",
+    "index": 89
+  },
+  {
+    "url": "https://cdn.plyo.site/3d-chooser/7e89b775-4e49-4e2a-8cdb-c933cfbd42e6/assets/render_0090_f522b4df47d700ddcc5d_LOD3.webp",
+    "texture": "render_0090_f522b4df47d700ddcc5d",
+    "fileName": "render_0090_f522b4df47d700ddcc5d_LOD3.webp",
+    "view": "Project Overview",
+    "viewpoint": "Viewpoint_0089.projOverview",
+    "index": 90
+  }
+]
