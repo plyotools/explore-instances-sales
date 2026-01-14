@@ -1,0 +1,39 @@
+{
+  "name": "explore-instances-sales",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=5124 next dev",
+    "dev:web": "PORT=5124 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.561.0",
+    "photo-sphere-viewer": "^4.8.1",
+    "class-variance-authority": "^0.7.1",
+    "tailwind-merge": "^3.4.0",
+    "clsx": "^2.1.0",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-popover": "^1.1.15",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.5.4",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.5"
+  }
+}

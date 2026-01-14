@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 268 88% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 268 88% 58%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 240 10% 96%;
+    --card: 217.2 32.6% 12%;
+    --card-foreground: 240 10% 96%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 240 10% 96%;
+    --primary: 268 88% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 240 10% 96%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 240 10% 96%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 268 88% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+/* Hide Cesium geocoder/search icon */
+.cesium-viewer-geocoderContainer {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* ========================================
+   CUSTOM CURSOR STYLES FOR EXPLORE VIEWER
+   ======================================== */
+
+/* Default arrow for panels and UI elements */
+.draggable-panel {
+  cursor: url('/cursors/arrow.svg') 16 16, auto !important;
+}
+
+/* Hand cursor for panel grip handle (top handler part of panels) */
+.draggable-panel .panel-grip {
+  cursor: url('/cursors/hand.svg') 16 16, grab !important;
+}
+
+/* Grab cursor when actively dragging panel */
+.draggable-panel.dragging .panel-grip,
+.draggable-panel .panel-grip:active {
+  cursor: url('/cursors/hand.grab.svg') 16 16, grabbing !important;
+}
+
+/* Hand cursor for panel resize handle */
+.draggable-panel .panel-resize-handle {
+  cursor: url('/cursors/hand.svg') 16 16, grab !important;
+}
+
+/* Grab cursor when actively resizing panel */
+.draggable-panel .panel-resize-handle:active {
+  cursor: url('/cursors/hand.grab.svg') 16 16, grabbing !important;
+}
+
+/* Hand and grab for canvas dragging (Three.js container) */
+/* Default state: hand cursor for dragging the canvas */
+.three-js-container canvas {
+  cursor: url('/cursors/hand.svg') 16 16, grab !important;
+}
+
+/* Active dragging state: grab cursor */
+.three-js-container canvas:active {
+  cursor: url('/cursors/hand.grab.svg') 16 16, grabbing !important;
+}
+
+/* Purple arrow for viewpoint markers (VPs) when hovering */
+.viewpoint-marker,
+[data-viewpoint="true"],
+.vp-ball,
+.viewpoint-sphere {
+  cursor: url('/cursors/arrow.purple.svg') 16 16, pointer !important;
+}
+
+/* Compact arrow for volumes when hovering */
+.volume-marker,
+[data-volume="true"],
+.volume-box {
+  cursor: url('/cursors/arror.compact.svg') 16 16, pointer !important;
+}
+
+/* Standard arrow for panels (default) */
+.explore-view {
+  cursor: url('/cursors/arrow.svg') 16 16, auto !important;
+}
+
+/* Hand point for interactive buttons and links */
+.explore-view button,
+.explore-view a,
+.explore-view [role="button"] {
+  cursor: url('/cursors/hand.point.svg') 16 16, pointer !important;
+}
+
+
+
+
+
+
+
