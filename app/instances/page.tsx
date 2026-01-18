@@ -321,148 +321,44 @@ function OverviewAnimation({ projectId, basePath = '', totalDuration = 720 }: { 
   );
 }
 
-// Card Image Renderer
+// Card Image Renderer - Simplified for Sales: only use preview images
 function CardImageRenderer({ instance, basePath = '', index }: { instance: ShowcaseInstance; basePath?: string; index: number }) {
   const projectId = instance.uuid || instance.id;
-  const [hasSampleImage, setHasSampleImage] = useState<boolean | null>(null);
-  const [hasOverviewImages, setHasOverviewImages] = useState<boolean | null>(null);
   const cardRef = useRef<HTMLDivElement>(null);
 
+  // Use preview image first, fallback to instance.image
+  const previewImageSrc = `${basePath}/previews/${projectId}.webp`;
   const imageSrc = instance.image 
     ? (basePath && !instance.image.startsWith(basePath) 
         ? `${basePath}${instance.image}` 
         : instance.image)
     : null;
 
-  useEffect(() => {
-    if (instance.type === 'Unit Finder' && hasOverviewImages === null) {
-      const overviewImagesJsonPath = basePath 
-        ? `${basePath}/projects/${projectId}/overview-images.json`
-        : `/projects/${projectId}/overview-images.json`;
-      
-      if (index < 12) {
-        fetch(overviewImagesJsonPath, { signal: AbortSignal.timeout(1000) })
-          .then(res => setHasOverviewImages(res.ok))
-          .catch(() => setHasOverviewImages(false));
-      } else {
-        const timer = setTimeout(() => {
-          fetch(overviewImagesJsonPath, { signal: AbortSignal.timeout(1000) })
-            .then(res => setHasOverviewImages(res.ok))
-            .catch(() => setHasOverviewImages(false));
-        }, (index - 12) * 50);
-        return () => clearTimeout(timer);
-      }
-    } else if (instance.type !== 'Unit Finder') {
-      setHasOverviewImages(false);
-    }
-  }, [projectId, basePath, index, instance.type]);
-
-  useEffect(() => {
-    if (instance.type === 'Showroom' && hasSampleImage === null) {
-      const sampleWebpSrc = basePath 
-        ? `${basePath}/projects/${projectId}/sample/sample.webp`
-        : `/projects/${projectId}/sample/sample.webp`;
-      const sampleJpgSrc = basePath 
-        ? `${basePath}/projects/${projectId}/sample/sample.jpg`
-        : `/projects/${projectId}/sample/sample.jpg`;
-      
-      if (index < 12) {
-        Promise.race([
-          fetch(sampleWebpSrc, { method: 'HEAD', signal: AbortSignal.timeout(800) }),
-          fetch(sampleJpgSrc, { method: 'HEAD', signal: AbortSignal.timeout(800) })
-        ])
-        .then(res => setHasSampleImage(res.ok))
-        .catch(() => {
-          fetch(sampleJpgSrc, { method: 'HEAD', signal: AbortSignal.timeout(800) })
-            .then(res => setHasSampleImage(res.ok))
-            .catch(() => setHasSampleImage(false));
-        });
-      } else {
-        const timer = setTimeout(() => {
-          Promise.race([
-            fetch(sampleWebpSrc, { method: 'HEAD', signal: AbortSignal.timeout(800) }),
-            fetch(sampleJpgSrc, { method: 'HEAD', signal: AbortSignal.timeout(800) })
-          ])
-          .then(res => setHasSampleImage(res.ok))
-          .catch(() => {
-            fetch(sampleJpgSrc, { method: 'HEAD', signal: AbortSignal.timeout(800) })
-              .then(res => setHasSampleImage(res.ok))
-              .catch(() => setHasSampleImage(false));
-          });
-        }, (index - 12) * 50);
-        return () => clearTimeout(timer);
-      }
-    } else if (instance.type !== 'Showroom') {
-      setHasSampleImage(false);
-    }
-  }, [projectId, basePath, index, instance.type]);
-
-  const isUnitFinder = instance.type === 'Unit Finder' || hasOverviewImages === true;
-  const isShowroom = instance.type === 'Showroom';
-
-  if (isUnitFinder) {
-    return (
-      <div ref={cardRef} className="w-full h-full" style={{ backgroundColor: 'rgba(255, 255, 255, 0.02)' }}>
-        <OverviewAnimation projectId={projectId} basePath={basePath} totalDuration={3} />
-      </div>
-    );
-  }
-
-  if (isShowroom && hasSampleImage !== false) {
-    const sampleWebpSrc = basePath 
-      ? `${basePath}/projects/${projectId}/sample/sample.webp`
-      : `/projects/${projectId}/sample/sample.webp`;
-    const sampleJpgSrc = basePath 
-      ? `${basePath}/projects/${projectId}/sample/sample.jpg`
-      : `/projects/${projectId}/sample/sample.jpg`;
-    
-    return (
-      <div ref={cardRef} className="w-full h-full relative" style={{ backgroundColor: 'rgba(255, 255, 255, 0.02)' }}>
-        <PanoramaViewer
-          imageSrc={sampleWebpSrc}
-          fallbackSrc={sampleJpgSrc}
-          autoRotate={true}
-          rotationSpeed={45}
-          priority={0}
-          disableInteraction={false}
-          style={{ width: '100%', height: '100%' }}
-        />
-      </div>
-    );
-  }
-
   const transparentPlaceholder = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0idHJhbnNwYXJlbnQiLz48L3N2Zz4=';
 
   return (
     <div ref={cardRef} className="w-full h-full relative" style={{ backgroundColor: 'rgba(255, 255, 255, 0.02)' }}>
-      {imageSrc ? (
-        <img
-          src={imageSrc}
-          alt={instance.name}
-          className="w-full h-full object-cover"
-          style={{ backgroundColor: 'rgba(255, 255, 255, 0.02)' }}
-          loading={index < 3 ? 'eager' : 'lazy'}
-          decoding="async"
-          onError={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            const target = e.target as HTMLImageElement;
-            if (!target.src.startsWith('data:')) {
-              target.src = transparentPlaceholder;
-              target.onerror = null;
-            }
-          }}
-        />
-      ) : (
-        <div className="w-full h-full flex flex-col items-center justify-center p-4 text-center" style={{ backgroundColor: 'rgba(255, 255, 255, 0.02)' }}>
-          <div className="text-gray-500 text-xs mb-2">
-            <svg className="w-8 h-8 mx-auto mb-2 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-            No preview available
-          </div>
-        </div>
-      )}
+      <img
+        src={previewImageSrc}
+        alt={instance.name}
+        className="w-full h-full object-cover"
+        style={{ backgroundColor: 'rgba(255, 255, 255, 0.02)' }}
+        loading={index < 3 ? 'eager' : 'lazy'}
+        decoding="async"
+        onError={(e) => {
+          const target = e.target as HTMLImageElement;
+          // Fallback to instance.image if preview fails
+          if (imageSrc && !target.src.includes(imageSrc)) {
+            target.src = imageSrc;
+            return;
+          }
+          // Final fallback to placeholder
+          if (!target.src.startsWith('data:')) {
+            target.src = transparentPlaceholder;
+            target.onerror = null;
+          }
+        }}
+      />
     </div>
   );
 }
@@ -471,7 +367,8 @@ export default function InstancesPage() {
   const [instances, setInstances] = useState<ShowcaseInstance[]>([]);
   const [filteredInstances, setFilteredInstances] = useState<ShowcaseInstance[]>([]);
   const [loading, setLoading] = useState(true);
-  const [authenticated, setAuthenticated] = useState<boolean | null>(null);
+  // Start as true to avoid loading screen - useEffect will redirect if not authenticated
+  const [authenticated, setAuthenticated] = useState<boolean>(true);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
   const [typeFilter, setTypeFilter] = useState<string>('all');
@@ -479,16 +376,24 @@ export default function InstancesPage() {
   const [includedFeatures, setIncludedFeatures] = useState<string[]>([]);
   const [excludedFeatures, setExcludedFeatures] = useState<string[]>([]);
   const searchInputRef = useRef<HTMLInputElement>(null);
-  const basePath = process.env.NODE_ENV === 'production' ? '/explore-instances-sales' : '';
+  
+  const getBasePath = () => {
+    if (typeof window === 'undefined') return '';
+    // On GitHub Pages the app runs under /explore-instances-sales
+    return window.location.pathname.startsWith('/explore-instances-sales') ? '/explore-instances-sales' : '';
+  };
+  
+  const basePath = getBasePath();
 
   useEffect(() => {
-    // Auth check
-    const isAuth = typeof window !== 'undefined' && window.localStorage.getItem('sales_showcase_auth') === 'true';
-    if (!isAuth) {
-      window.location.replace(basePath + '/login');
-      return;
+    // Check authentication immediately
+    if (typeof window !== 'undefined') {
+      const isAuth = window.localStorage.getItem('sales_showcase_auth') === 'true';
+      if (!isAuth) {
+        window.location.replace(basePath + '/login');
+        return;
+      }
     }
-    setAuthenticated(true);
 
     if (typeof document !== 'undefined') {
       document.documentElement.classList.add('dark');
@@ -510,7 +415,7 @@ export default function InstancesPage() {
     };
 
     loadInstances();
-  }, []);
+  }, [basePath]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -596,15 +501,9 @@ export default function InstancesPage() {
       });
   }, [instances]);
 
-  if (authenticated === null || loading) {
-    return (
-      <div className="min-h-screen bg-[#0A082D] flex items-center justify-center">
-        <div className="text-white flex items-center gap-3">
-          <Loader2 className="h-5 w-5 animate-spin text-[#8027F4]" />
-          <span>Loading Showcase...</span>
-        </div>
-      </div>
-    );
+  // Don't render until instances are loaded to prevent double render
+  if (loading && instances.length === 0) {
+    return null;
   }
 
   return (
@@ -785,7 +684,7 @@ export default function InstancesPage() {
           ))}
         </div>
 
-        {filteredInstances.length === 0 && (
+        {!loading && filteredInstances.length === 0 && (
           <div className="text-center py-12">
             <p className="text-muted-foreground">No instances found</p>
           </div>

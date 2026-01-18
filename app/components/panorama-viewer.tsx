@@ -805,6 +805,18 @@ export function PanoramaViewer({
         // Listen for panorama loading progress (silent - only log on errors)
         addListener.call(viewer, 'panorama-load-progress', (event: any) => {
           // Panorama loading progress
+          // Safety check: event might be undefined or missing loader property
+          if (!event || typeof event !== 'object') {
+            return;
+          }
+          // Access loader property safely
+          try {
+            if (event.loader) {
+              // Progress event is valid
+            }
+          } catch (error) {
+            // Silently ignore - event structure might be different
+          }
         });
 
         // Try to manually trigger load if viewer has a load method

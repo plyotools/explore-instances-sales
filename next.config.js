@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
   const nextConfig = {
-    // Only use static export in production builds
-    ...(process.env.NODE_ENV === 'production' && { output: 'export' }),
+    output: 'export',
     basePath: process.env.NODE_ENV === 'production' ? '/explore-instances-sales' : '',
     assetPrefix: process.env.NODE_ENV === 'production' ? '/explore-instances-sales' : '',
+    reactStrictMode: false,
     images: {
       unoptimized: true,
     },

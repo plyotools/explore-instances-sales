@@ -11,11 +11,21 @@
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
+    const [lastUpdated, setLastUpdated] = useState('');
+
+    const getBasePath = () => {
+      if (typeof window === 'undefined') return '';
+      // On GitHub Pages the app runs under /explore-instances-sales
+      return window.location.pathname.startsWith('/explore-instances-sales') ? '/explore-instances-sales' : '';
+    };
 
     useEffect(() => {
+      // Set last updated timestamp on client only
+      setLastUpdated(new Date().toLocaleString());
+
       // Check if already authenticated
       if (typeof window !== 'undefined' && window.localStorage.getItem('sales_showcase_auth') === 'true') {
-        const basePath = process.env.NODE_ENV === 'production' ? '/explore-instances-sales' : '';
+        const basePath = getBasePath();
         window.location.replace(basePath + '/instances');
       }
     }, []);
@@ -26,11 +36,11 @@
       setLoading(true);
 
       // Simple client-side auth
-      if (password === 'plyo12') {
+      if (password === 'plyo-2026') {
         if (typeof window !== 'undefined') {
           window.localStorage.setItem('sales_showcase_auth', 'true');
         }
-        const basePath = process.env.NODE_ENV === 'production' ? '/explore-instances-sales' : '';
+        const basePath = getBasePath();
         window.location.replace(basePath + '/instances');
       } else {
         setError('Invalid password');
@@ -84,11 +94,13 @@
                 </svg>
               </div>
               <CardTitle className="text-2xl text-white font-bold tracking-tight mb-2">
-                Sales Showcase
+                Plyo Explore
               </CardTitle>
-              <CardDescription className="text-white/60">
-                Enter password to access instances
-              </CardDescription>
+              {lastUpdated && (
+                <div className="text-xs text-white/40 mt-2">
+                  Last updated: {lastUpdated}
+                </div>
+              )}
             </CardHeader>
             <CardContent className="pb-8">
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -119,7 +131,7 @@
                   {loading ? (
                     <Loader2 className="h-5 w-5 animate-spin" />
                   ) : (
-                    'Access Showcase'
+                    'Login'
                   )}
                 </Button>
               </form>
@@ -128,4 +140,5 @@
         </div>
       </div>
     );
+  }
   
