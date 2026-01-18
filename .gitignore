@@ -1,23 +1,23 @@
 # dependencies
-      / node_modules
-      /.pnp
-        .pnp.js
+/node_modules
+/.pnp
+.pnp.js
 
 # testing
-      / coverage
+/coverage
 
 # next.js
-      /.next /
-      /out/
+/.next/
+/out/
 
 # production
-      / build
+/build
 
 # misc
-      .DS_Store
-      *.pem
+.DS_Store
+*.pem
 
 # typescript
-      *.tsbuildinfo
-    next - env.d.ts
+*.tsbuildinfo
+next-env.d.ts
       
